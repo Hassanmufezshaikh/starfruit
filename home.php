@@ -183,8 +183,8 @@ if(isset($_POST['submit'])){
     <div class="carousel-inner">
       <div class="carousel-item active">
         <!-- <img src="photos/01.avif" class="d-block w-100" class="img-fluid" height="600px"  alt="..." />width="800" height="450" -->
-        <img src="photos/starfruits.gif" class="image_mobile img-fluid w-100  d-md-none d-lg-none" height="" alt="">
-        <img src="photos/starfruits.gif" class="image_desktop w-100 d-none d-sm-block "  alt="">
+        <img src="photos/1.jpg" class="image_mobile img-fluid w-100  d-md-none d-lg-none" height="" alt="">
+        <img src="photos/1.jpg" class="image_desktop w-100 d-none d-sm-block  "  alt="">
 
 
       </div>
