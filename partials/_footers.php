@@ -134,37 +134,37 @@
     <div class="row mb-5   ">
 
 
-      <div class="col-lg-2 col-sm-5 col-5  mb-3 text-center">
+      <div class="col-lg-2 col-sm-3 col-4  text-center">
         <h5>About</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2 mr-2"><a href="about.php" class="nav-link p-0 text-muted">About</a></li>
-          <li class="nav-item mb-2 mr-2"><a href="fruits.php" class="nav-link p-0 text-muted">Fruits </a></li>
+          <li class="nav-item my-0 py-0 mr-2"><a href="about.php" class="nav-link  my-0 py-1 text-muted">About</a></li>
+          <li class="nav-item my-0 py-0 mr-2"><a href="fruits.php" class="nav-link my-0 py-0  text-muted">Fruits </a></li>
         </ul>
       </div>
 
-      <div class="col-lg-2 col-sm-7 col-7 text-right mb-3">
+      <div class="col-lg-2 col-sm-10 col-8 text-right mb-3">
         <h5 class="text-right pr-4">Phone</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2 pl-1 "><a href="tel:+919448757147" class="nav-link p-0 text-muted"><i class="fas fa-phone-alt pr-1"></i>+919448757147</a></li>
-          <li class="nav-item mb-2 pl-1 "><a href="tel:+919945029443" class="nav-link p-0 text-muted"><i class="fas fa-phone-alt pr-1"></i>+919945029443 </a></li>
+          <li class="nav-item mb-2 px-0 mx-0 "><a href="tel:+919448757147" class="nav-link p-0 text-muted"><i class="fas fa-phone-alt px-0 mx-0"></i>+919448757147</a></li>
+          <li class="nav-item mb-2 px-0 mx-0 "><a href="tel:+919945029443" class="nav-link p-0 text-muted"><i class="fas fa-phone-alt px-0 mx-0"></i>+919945029443 </a></li>
         </ul>
       </div>
 
 
-      <div class="col-lg-2 col-sm-5 col-5 text-center">
+      <div class="col-lg-2 col-sm-5 col-6 text-center">
         <h4>Instagram</h4>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="https://www.instagram.com/starfruits07/" class="nav-link p-0 text-muted" class=" custom-instagram-link"><i class="fab fa-instagram pr-1"></i>StarFruits</a></li>
-          <li class="nav-item mb-2"><a href="vegetables.php" class="nav-link p-0 text-muted"><i class="fab fa-instagram pr-1"></i>vegetable</a></li>
+          <li class="nav-item mb-2 pr-3"><a href="https://www.instagram.com/starfruits07/" class="nav-link p-0 text-muted" class=" custom-instagram-link"><i class="fab fa-instagram pr-1"></i>StarFruits</a></li>
+          <li class="nav-item mb-2 pr-2" ><a href="vegetables.php" class="nav-link p-0 text-muted"><i class="fab fa-instagram pr-1"></i>vegetable</a></li>
         </ul>
       </div>
 
 
-      <div class="col-lg-2 col-sm-7 col-7 text-right">
+      <div class="col-lg-2 col-sm-7 col-6 pl-4 text-right">
         <h5 class="text-right pr-4">Address</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2 pr-0"><a href="#" class="nav-link p-0 text-muted">Sirsi, Karnataka.</a></li>
-          <li class="nav-item mb-2 pr-3"><a href="contactus.php" class="nav-link p-0 text-muted">ContactUS</a></li>
+          <li class="nav-item mb-2 "><a href="#" class="nav-link pr-3 text-muted my-0 py-1">Karnataka.</a></li>
+          <li class="nav-item mb-2 "><a href="contactus.php" class="nav-link pr-03 text-muted my-0 py-0">ContactUS</a></li>
         </ul>
       </div>
 
