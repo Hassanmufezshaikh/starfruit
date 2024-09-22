@@ -26,7 +26,7 @@
             <li class="nav-item">
                 <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><a class="text-white" href="/starfruits">HOME <span class="sr-only">(current)</span></a></button> -->
 
-                <a class="btn btn-outline-light my-2 my-sm-0 text-white" href="/starfruits">HOME <span class="sr-only">(current)</span></a>
+                <a class="btn btn-outline-light my-2 my-sm-0 text-white" href="/home.php">HOME <span class="sr-only">(current)</span></a>
 
             </li>
             <li class="nav-item">
