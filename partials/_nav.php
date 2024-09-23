@@ -15,7 +15,7 @@
 </style>
 
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:hsla(13, 100%, 55%, 0.922);" >
-    <a class="navbar-brand  custom-text" href="/starfruit/home.php"> 🌟STAR FRUITS </a>
+    <a class="navbar-brand  custom-text" href="starfruit/home.php"> 🌟STAR FRUITS </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@
             <li class="nav-item">
                 <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><a class="text-white" href="/starfruits">HOME <span class="sr-only">(current)</span></a></button> -->
 
-                <a class="btn btn-outline-light my-2 my-sm-0 text-white" href="/starfruit/home.php">HOME <span class="sr-only">(current)</span></a>
+                <a class="btn btn-outline-light my-2 my-sm-0 text-white" href="starfruit/home.php">HOME <span class="sr-only">(current)</span></a>
 
             </li>
             <li class="nav-item">
