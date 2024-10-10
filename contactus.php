@@ -117,7 +117,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <h1 class="display-5 text-center ">Enquire Now</h1>
                 <h1 class="lead text-left my-1"><b>If you have further information, Please fill in the below form.</b></h1>
                 <br>
-                <h3 class=" lead fs-3  text-left  mr-0 pr-0"> <b> At 🌟Star Fruits, our passion lies in sourcing the freshest and delicious fruits from across India.<br> We deliver our premium produce to satisfied clients in Delhi, Punjab, and Hyderabad.</br></h3>
+                <h3 class=" lead fs-3  text-left  mr-0 pr-0"> <b> At Star Fruits, our passion lies in sourcing the freshest and delicious fruits from across India.<br> We deliver our premium produce to satisfied clients in Delhi, Punjab, and Hyderabad.</br></h3>
                 <h3 class="text-center "> </h3>
                 <div class="container ">
                     <form class="p-5 p-md-5 border rounded-5 bg-light" action="/starfruits/contactus.php" method="post">
