@@ -55,7 +55,7 @@ if(isset($_POST['submit'])){
 
             //Content
             $mail->isHTML(true);                                  //Set email format to HTML
-            $mail->Subject = '🌟Star Fruits';
+            $mail->Subject = 'Star Fruits';
             $mail->Body    = "Sender Name - $name <br> Sender Email - $email <br> Sender Phone Number - $phone <br> Sender Message - $message";
 
             $mail->send();
