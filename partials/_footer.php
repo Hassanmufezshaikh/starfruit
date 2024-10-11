@@ -59,7 +59,7 @@
 
 <body>
 <div class="container-fluid bg-light  text-center mt-5">
-<h1 class="display-5 fw-bold text-bolder custom-text  text-center" > 🌟Star Fruits</h1>
+<h1 class="display-5 fw-bold text-bolder custom-text  text-center" > Star Fruits</h1>
 <div class="row">
           <div class="col-12 pb-1 text-center  custom-text-mobile d-md-none d-lg-none"> <b>Premier Wholesale Fruits and Vegetables Supplier </b></div>
           <div class="col-12 pb-1 text-center  custom-text-desktop  d-none d-sm-block"> <b>Premier Wholesale Fruits and Vegetables Supplier </b></div>
@@ -120,7 +120,7 @@
       <div class="container justify-content-center ">
       
       <div class="row row-col-2">
-          <p class="text-left mb-5 col-lg-10 display-5 fw-bold text-info "> Copyright © 2023 🌟Star Fruits Company, Inc.</p>
+          <p class="text-left mb-5 col-lg-10 display-5 fw-bold text-info "> Copyright © 2023 Star Fruits Company, Inc.</p>
               <p class="text-right mb-5 col-lg-2 display-5 text-bolder  "><a href="" class="text-info" >Back to top</a></p>
       </div>
     </div>

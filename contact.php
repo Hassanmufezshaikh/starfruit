@@ -97,10 +97,10 @@ if(isset($_POST['submit'])){
       <div class="row align-items-center g-lg-5 py-2">
         <div class="col-lg-7 text-center text-lg-start">
           <h1 class="display-5 bold text-center  mb-3 mr-2">Contact Us</h1>
-            <p class="col-lg-10 fs-3 text-left pl-5 mx-0">Welcome to 🌟Star Fruits, your go-to destination for the freshest and most delightful fruits sourced from all corners of India! Our passion is reflected in every bite, ensuring you experience the true essence of nature's goodness.
+            <p class="col-lg-10 fs-3 text-left pl-5 mx-0">Welcome to Star Fruits, your go-to destination for the freshest and most delightful fruits sourced from all corners of India! Our passion is reflected in every bite, ensuring you experience the true essence of nature's goodness.
 
 <br>
-<br>At 🌟Star Fruits, quality and taste are our top priorities. Whether you're a fruit enthusiast or a buyer, our carefully curated selection promises a memorable experience. From the vibrant orchards of Delhi and Punjab to the lush groves of Kerala and the bustling markets of Mumbai and Hyderabad, we bring the best of India's harvest to your table.
+<br>At Star Fruits, quality and taste are our top priorities. Whether you're a fruit enthusiast or a buyer, our carefully curated selection promises a memorable experience. From the vibrant orchards of Delhi and Punjab to the lush groves of Kerala and the bustling markets of Mumbai and Hyderabad, we bring the best of India's harvest to your table.
 
 Got a question or craving some fresh fruits? <br>Look no further! Fill out our convenient form below, and our dedicated team will be in touch with you shortly. We believe in making your fruit shopping experience seamless and enjoyable.
 <br>

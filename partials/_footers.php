@@ -60,7 +60,7 @@
 
 
 <div class="container-fluid bg-light custom-width text-center mt-5">
-<h1 class="display-5 fw-bold text-bolder custom-text  text-center" > 🌟Star Fruits</h1>
+<h1 class="display-5 fw-bold text-bolder custom-text  text-center" > Star Fruits</h1>
 <div class="row">
           <div class="col-12 pb-1 text-center  custom-text-mobile d-md-none d-lg-none"> <b>Premier Wholesale Fruits and Vegetables Supplier </b></div>
           <div class="col-12 pb-1 text-center  custom-text-desktop  d-none d-sm-block"> <b>Premier Wholesale Fruits and Vegetables Supplier </b></div>
@@ -145,8 +145,8 @@
       <div class="col-lg-2 col-sm-7 col-7 text-right mb-3">
         <h5 class="text-right pr-4">Phone</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2 pl-1 "><a href="tel:+919448757147" class="nav-link p-0 text-muted"><i class="fas fa-phone-alt pr-1"></i>+919448757147</a></li>
-          <li class="nav-item mb-2 pl-1 "><a href="tel:+919945029443" class="nav-link p-0 text-muted"><i class="fas fa-phone-alt pr-1"></i>+919945029443 </a></li>
+          <li class="nav-item mb-2 pl-1 "><a href="tel:+919448757147" class="nav-link p-0 text-muted">+919448757147</a></li>
+          <li class="nav-item mb-2 pl-1 "><a href="tel:+919945029443" class="nav-link p-0 text-muted">+919945029443 </a></li>
         </ul>
       </div>
 
@@ -178,13 +178,10 @@
     </div>
 
 
-
-
-
     <div class="container justify-content-center">
       <div class="row">
         <div class="col-lg-10 col-sm-12">
-          <p class="text-left mb-5 display-5 fw-bold text-info"> Copyright © 2023 🌟Star Fruits Company, Inc.</p>
+          <p class="text-left mb-5 display-5 fw-bold text-info"> Copyright © 2023 Star Fruits Company, Inc.</p>
         </div>
         <div class="col-lg-2 col-sm-6">
           <p class="text-right  display-5 text-bolder"><a href="" class="text-info">Back to top</a></p>
