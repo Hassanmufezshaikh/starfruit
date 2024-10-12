@@ -1,3 +1,40 @@
+<?php
+$showAlert = false;
+$showError = false;
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    include("partials/_dbconnect.php");
+
+    $name = $_POST["name"];
+    $phone = $_POST["phone"];
+    $email = $_POST["email"]; // Corrected variable name to $_POST["emailaddress"]
+    $message = $_POST["message"];
+
+    if (!empty($name) && !empty($phone)) { // Ensure $email is not empty
+        $exists = false;
+
+        // Check if username already exists in the database
+        $checkUsernameQuery = "SELECT * FROM `starfruits` WHERE `phone`='$phone'";
+        $checkUsernameResult = mysqli_query($conn, $checkUsernameQuery);
+        if (mysqli_num_rows($checkUsernameResult) > 0) {
+            $exists = true;
+            $showError = "Phone number already exists";
+        } else {
+            $sql = "INSERT INTO `starfruits` (`name`, `phone`, `email`, `message`) 
+                    VALUES ('$name', '$phone', '$email', '$message')";
+            $result = mysqli_query($conn, $sql);
+
+            if ($result) {
+                $showAlert = true;
+            } else {
+                $showError = "Form is not filled";
+            }
+        }
+    } else {
+        $showError = "Please fill all required fields"; // Add an error message if any required field is empty
+    }
+}
+?>
 
 <!doctype html>
 <html lang="en">
@@ -52,15 +89,13 @@
 </head>
 
 <body>
-<?php
-  require("partials/_nav.php");
-  ?>
-
-
-<?php
+    <?php
+    require("partials/_nav.php");
+    ?>
+    <?php
     if ($showAlert) {
         echo ' <div class="alert alert-success alert-dismissible fade show" role="alert">
-        <strong>Success!</strong> Great job! 🎉 Your form has been submitted successfully, and we'."'".'ve received your email. Thanks for reaching out! 😊
+        <strong>Success!</strong> you have filled the form sucessfully!!
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">×</span>
         </button>
@@ -75,37 +110,22 @@
     </div> ';
     }
     ?>
-
-     <!-- graph -->
-     <div class="container my-5"></div>
-     <div class="container">
-      <div class="row align-items-center g-lg-5 py-2">
-        <div class="col-lg-7 text-center text-lg-start">
-          <h1 class="display-5 bold text-center  mb-3 mr-2">Contact Us</h1>
-            <p class="col-lg-10 fs-3 text-left pl-5 mx-0">Welcome to Star Fruits, your go-to destination for the freshest and most delightful fruits sourced from all corners of India! Our passion is reflected in every bite, ensuring you experience the true essence of nature's goodness.
-
-<br>
-<br>At Star Fruits, quality and taste are our top priorities. Whether you're a fruit enthusiast or a buyer, our carefully curated selection promises a memorable experience. From the vibrant orchards of Delhi and Punjab to the lush groves of Kerala and the bustling markets of Mumbai and Hyderabad, we bring the best of India's harvest to your table.
-
-Got a question or craving some fresh fruits? <br>Look no further! Fill out our convenient form below, and our dedicated team will be in touch with you shortly. We believe in making your fruit shopping experience seamless and enjoyable.
-<br>
-<br><b>Premium Quality: We source only the finest fruits for your satisfaction.</b>
-<br><b>Fast and Reliable Service: We deliver promptly to your doorstep.</b>
-<br><b>Passionate Team: Our experts are here to answer queries and provide assistance.</b>
-</p>
-
-
-
-        </div>
-        
-        <div class="col-md-10 mx-auto col-lg-5" id="down">
-          <form class="p-5 p-md-5 border rounded-5 bg-light" action="/starfruits/" method="post">
-
-                      <div class="form-group">
+<!-- style="background-color:hsla(182, 100%, 86%, 0.922);" -->
+    <div class="container-fuild  " >
+        <div class="jumbotron " >
+            <div class="container">
+                <h1 class="display-5 text-center ">Enquire Now</h1>
+                <h1 class="lead text-left my-1"><b>If you have further information, Please fill in the below form.</b></h1>
+                <br>
+                <h3 class=" lead fs-3  text-left  mr-0 pr-0"> <b> At 🌟Star Fruits, our passion lies in sourcing the freshest and delicious fruits from across India. We deliver our premium produce to satisfied clients in Delhi, Punjab, and Hyderabad.</br></h3>
+                <h3 class="text-center "> </h3>
+                <div class="container ">
+                    <form class="p-5 p-md-5 border rounded-5 bg-light" action="/starfruits/contactus.php" method="post">
+                        <div class="form-group">
                             <label for="name">NAME</label>
                             <input type="text" maxlength="20" class="form-control" id="name" name="name"
                                 aria-describedby="emailHelp">
-                       </div>
+                        </div>
                         <div class="form-group">
                             <label for="phone">PHONE</label>
                             <input type="phone" class="form-control" id="phone" name="phone">
@@ -120,16 +140,12 @@ Got a question or craving some fresh fruits? <br>Look no further! Fill out our c
                                 rows="5"></textarea>
                             <small id="emailHelp" class="form-text text-muted"></small>
                         </div>
-                        <button type="submit" name="submit" class="btn btn-primary">SUBMIT</button>
-        
-
-          </form>
+                        <button type="submit" class="btn btn-primary">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        
-      </div>
     </div>
-
-         <div class="container my-5"></div>
 
 
     <?php
