@@ -326,7 +326,7 @@ Got a question or craving some fresh fruits? <br>Look no further! Fill out our c
         </div>
         
         <div class="col-md-10 mx-auto col-lg-5" id="down">
-          <form class="p-5 p-md-5 border rounded-5 bg-light" action="/starfruits/home.php" method="post">
+          <form class="p-5 p-md-5 border rounded-5 bg-light" action="/starfruits/" method="post">
                       <div class="form-group">
                             <label for="name">NAME</label>
                             <input type="text" maxlength="20" class="form-control" id="name" name="name"
