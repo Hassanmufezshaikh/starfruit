@@ -39,7 +39,7 @@
         <div class="row featurette d-flex justify-content-Center align-items-center">
             <div class="col-md-7">
                 <h2 class="featurette-heading">Our Commitment to Quality. <span class="text-muted">Top-Quality Fresh Fruit Picks.</span></h2>
-                <p class="lead fs-4">At 🌟Star Fruits, we are dedicated to quality. Our commitment begins at the source, where we carefully select the finest fruits. Rigorous quality checks and adherence to international & domestic standards ensure that only the best products reach you . We take pride in our sustainable and eco-friendly practices, delivering not just fruits, but a promise of quality you can trust. </p>
+                <p class="lead fs-4">At Star Fruits, we are dedicated to quality. Our commitment begins at the source, where we carefully select the finest fruits. Rigorous quality checks and adherence to international & domestic standards ensure that only the best products reach you . We take pride in our sustainable and eco-friendly practices, delivering not just fruits, but a promise of quality you can trust. </p>
                 <ul> 
                     <li><h6 class="lead fs-3"><b>Timely Fruit Deliveries In India</b></h6> </li>
                     <li><h6 class="lead fs-3"><b>Premium Fresh Fruits In India</b></h6> </li>
@@ -71,7 +71,7 @@
         <div class="row featurette d-flex justify-content-Center align-items-center">
             <div class="col-md-7">
                 <h2 class="featurette-heading">MISSION. <span class="text-muted">Helping communities thrive with fruits.</span></h2>
-                <p class="lead fs-4">At 🌟Star Fruits, our mission is clear: to deliver the freshest, highest-quality fruits and vegetables to elevate culinary experiences. Rooted in honesty and sustainability, we foster meaningful partnerships, ensuring customer happiness and growth. With meticulous sourcing and a focus on flavor, we're shaping a healthier food world, one partnership at a time.</p>
+                <p class="lead fs-4">At Star Fruits, our mission is clear: to deliver the freshest, highest-quality fruits and vegetables to elevate culinary experiences. Rooted in honesty and sustainability, we foster meaningful partnerships, ensuring customer happiness and growth. With meticulous sourcing and a focus on flavor, we're shaping a healthier food world, one partnership at a time.</p>
             </div>
             <div class="col-md-5">
                 <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
@@ -82,7 +82,7 @@
         <div class="row featurette d-flex justify-content-Center align-items-center my-5">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">VISSION. <span class="text-muted">Elevating lives through fruits.</span></h2>
-                <p class="lead">At 🌟Star Fruits, our vision extends beyond produce; we're redefining wholesomeness. As industry pioneers, we aim to be the go-to source for businesses seeking premium, sustainable fruits and vegetables. Our innovative approach and eco-conscious practices drive us toward a future where each bite contributes to a flavorful, nutritious, and planet-friendly world. Join us in cultivating a greener, tastier tomorrow.</p>
+                <p class="lead">At Star Fruits, our vision extends beyond produce; we're redefining wholesomeness. As industry pioneers, we aim to be the go-to source for businesses seeking premium, sustainable fruits and vegetables. Our innovative approach and eco-conscious practices drive us toward a future where each bite contributes to a flavorful, nutritious, and planet-friendly world. Join us in cultivating a greener, tastier tomorrow.</p>
             </div>
             <div class="col-md-5">
                 <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
