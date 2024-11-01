@@ -107,9 +107,9 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card">
-                    <img src="photos/pin30.jpeg" width="350" height="400" class="card-img-top" alt="Image 1">
+                    <img src="photos/pin88.jpg" width="350" height="400" class="card-img-top" alt="Image 1">
                     <div class="card-body mt-3">
-                        <h2 class="card-title text-center  custom-text">Lemon</h2>
+                        <h2 class="card-title text-center  custom-text">Pineapple Plants</h2>
                         
                     </div>
                 </div>
