@@ -101,7 +101,6 @@
                     <img src="Photos/28.jpg " width="350" height="400" class="card-img-top" alt="Image 1">
                     <div class="card-body mt-3">
                         <h2 class="card-title text-center  custom-text">Garlic</h2>
-                        
                     </div>
                 </div>
             </div>
