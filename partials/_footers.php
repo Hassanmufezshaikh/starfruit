@@ -118,7 +118,7 @@
     <div class="container text-center text-lg-start py-4">
       <div class="row align-items-center">
         <div class="col-lg-10 col-md-9 col-12 mb-3 mb-lg-0">
-        <p class="mb-0 display-6 fw-bold text-info">&copy; <span id="year"></span> 🌟Star Fruits Company, Inc.</p>
+          <p class="mb-0 display-6 fw-bold text-info">&copy; <span id="year"></span> 🌟Star Fruits Company, Inc.</p>
         </div>
         <div class="col-lg-2 col-md-3 col-12 text-lg-end text-md-end text-center">
           <a href="#" class="text-info fw-bold">Back to top</a>
