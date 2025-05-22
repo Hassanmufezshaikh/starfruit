@@ -73,6 +73,18 @@
     <!-- Content Section -->
     <div class="container my-5">
         <!-- Quality Commitment -->
+                 <div class="row featurette d-flex align-items-center my-5">
+            <div class="col-md-5">
+                <img src="photos/areca-nuts.png" class="img-fluid" alt="Areca Nuts Wholesale Export">
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Top-Quality Areca Nuts. <span class="text-muted">Supply</span></h2>
+                <p class="lead">We provide carefully selected areca nuts (supari) in whole and split form for pan shops, traders, manufacturers, and wholesalers across India. Cleaned and graded for long shelf life and strong aroma.</p>
+                <div class="icon-box"><i class="fas fa-truck"></i> Bulk Supply Across States</div>
+                <div class="icon-box"><i class="fas fa-warehouse"></i> Ready Stock & Fast Delivery</div>
+            </div>
+
+        </div>
         <div class="row featurette d-flex align-items-center">
             <div class="col-md-7">
                 <h2 class="featurette-heading">Our Commitment to Quality. <span class="text-muted">Fresh & Premium.</span></h2>
@@ -86,39 +98,7 @@
             </div>
         </div>
 
-        <!-- Pineapple Processing -->
-        <div class="row featurette d-flex align-items-center my-5">
-            <div class="col-md-5">
-                <img src="photos/03.jpeg" class="img-fluid" alt="Pineapple Processing">
-            </div>
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Pineapple Processing Perfection. <span class="text-muted">Pure & Fresh.</span></h2>
-                <p class="lead">Our state-of-the-art pineapple processing ensures <b></b>high-quality pineapple products, including jams, canned fruits, and fresh packs. Taste the tropical goodness with every bite.</p>
-                <div class="icon-box"><i class="fas fa-box-open"></i> Bulk Orders Available</div>
-                <div class="icon-box"><i class="fas fa-award"></i> Export Quality</div>
-            </div>
-        </div>
 
-        <!-- Mission & Vision -->
-        <div class="row featurette d-flex align-items-center">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Our Mission. <span class="text-muted">Health & Sustainability.</span></h2>
-                <p class="lead">🌟Star Fruits aims to provide the freshest, highest-quality fruits and vegetables while promoting <b>sustainability</b>. We are committed to delivering nutrition, taste, and <b>eco-friendly</b> solutions to our customers.</p>
-            </div>
-            <div class="col-md-5">
-                <img src="photos/pin17.jpg" class="img-fluid" alt="Mission">
-            </div>
-        </div>
-
-        <div class="row featurette d-flex align-items-center my-5">
-            <div class="col-md-5">
-                <img src="photos/pin16.jpg" class="img-fluid" alt="Vision">
-            </div>
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Our Vision. <span class="text-muted">A Healthier Future.</span></h2>
-                <p class="lead">At 🌟Star Fruits, we <b>envision</b> a world where premium, sustainable fruits are accessible to all. Join us in our journey to make healthy, organic, and delicious produce a part of every home.</p>
-            </div>
-        </div>
     </div>
 </body>
 </html>

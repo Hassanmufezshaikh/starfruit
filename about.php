@@ -95,6 +95,19 @@
 
     <!-- Content Section -->
     <div class="container my-5">
+        <div class="row featurette d-flex align-items-center my-5">
+            <div class="col-md-5">
+                <img src="photos/areca-nuts.png" class="img-fluid" alt="Areca Nuts Wholesale Export">
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Top-Quality Areca Nuts. <span class="text-muted">Supply</span></h2>
+                <p class="lead">We provide carefully selected areca nuts (supari) in whole and split form for pan shops, traders, manufacturers, and wholesalers across India. Cleaned and graded for long shelf life and strong aroma.</p>
+                <div class="icon-box"><i class="fas fa-truck"></i> Bulk Supply Across States</div>
+                <div class="icon-box"><i class="fas fa-warehouse"></i> Ready Stock & Fast Delivery</div>
+            </div>
+
+        </div>
+
         <!-- Quality Commitment -->
         <div class="row featurette d-flex align-items-center">
             <div class="col-md-7">
@@ -127,6 +140,15 @@
             <div class="col-md-7">
                 <h2 class="featurette-heading">Our Mission. <span class="text-muted">Health & Sustainability.</span></h2>
                 <p class="lead">🌟Star Fruits aims to provide the freshest, highest-quality fruits and vegetables while promoting <b>sustainability</b>. We are committed to delivering nutrition, taste, and <b>eco-friendly</b> solutions to our customers.</p>
+                <ul class="list-unstyled mt-4">
+                    <li class="mb-2 icon-box"><i class="fas fa-seedling" style="color: #ff6f00;"></i> 100% Natural & Farm Fresh Produce</li>
+                    <li class="mb-2 icon-box"><i class="fas fa-hand-holding-usd" style="color: #ff6f00;"></i> Best Wholesale Prices & Bulk Discounts</li>
+                    <li class="mb-2 icon-box"><i class="fas fa-globe-asia" style="color: #ff6f00;"></i> Pan India Supply & International Export</li>
+                    <li class="mb-2 icon-box"><i class="fas fa-truck" style="color: #ff6f00;"></i> Fast & Safe Delivery with Cold Chain Logistics</li>
+                    <li class="mb-2 icon-box"><i class="fas fa-smile" style="color: #ff6f00;"></i> 100% Customer Satisfaction Guarantee</li>
+                    <li class="mb-2 icon-box"><i class="fas fa-recycle" style="color: #ff6f00;"></i> Sustainable Packaging – Eco-Friendly Materials</li>
+                </ul>
+
             </div>
             <div class="col-md-5">
                 <img src="photos/pin17.jpg" class="img-fluid" alt="Mission">
@@ -140,6 +162,24 @@
             <div class="col-md-7">
                 <h2 class="featurette-heading">Our Vision. <span class="text-muted">A Healthier Future.</span></h2>
                 <p class="lead">At 🌟Star Fruits, we <b>envision</b> a world where premium, sustainable fruits are accessible to all. Join us in our journey to make healthy, organic, and delicious produce a part of every home.</p>
+                <ul class="list-unstyled mt-4">
+                    <li class="mb-3">
+                        <div class="icon-box "><i class="fas fa-leaf me-2"></i> Promoting Organic & Sustainable Agriculture</div>
+                    </li>
+                    <li class="mb-3">
+                        <div class="icon-box "><i class="fas fa-users me-2"></i> Empowering Farmers Across India</div>
+                    </li>
+                    <li class="mb-3">
+                        <div class="icon-box "><i class="fas fa-balance-scale me-2"></i> Fair Trade & Transparent Pricing</div>
+                    </li>
+                    <li class="mb-3">
+                        <div class="icon-box "><i class="fas fa-heartbeat me-2"></i> Encouraging Healthy Lifestyles with Fresh Food</div>
+                    </li>
+                    <li class="mb-3">
+                        <div class="icon-box "><i class="fas fa-award me-2"></i> Commitment to Global Food Quality Standards</div>
+                    </li>
+                </ul>
+
             </div>
         </div>
     </div>

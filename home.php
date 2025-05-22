@@ -21,8 +21,6 @@ if (isset($_POST['submit'])) {
   if (!empty($name) && !empty($phone)  && !empty($message)) { // Ensure $email is not empty
     $exists = false;
 
-
-
     //Load Composer's autoloader
     require 'PHPMailer/PHPMailer.php';
     require 'PHPMailer/SMTP.php';
@@ -69,7 +67,6 @@ if (isset($_POST['submit'])) {
 }
 
 ?>
-
 
 
 <!DOCTYPE html>
@@ -214,16 +211,18 @@ if (isset($_POST['submit'])) {
       transform: scale(1.05);
     }
 
-    
+
     body {
       margin: 0;
       padding: 0;
       background-color: #fff;
     }
+
     .top-bar {
       background-color: #a10039;
       height: 10px;
     }
+
     .main-section {
       background: linear-gradient(to bottom, #000000, #033333);
       color: yellow;
@@ -231,9 +230,13 @@ if (isset($_POST['submit'])) {
       text-align: center;
       font-family: Arial, sans-serif;
     }
-    .main-section h2, .main-section h4, .main-section p {
+
+    .main-section h2,
+    .main-section h4,
+    .main-section p {
       margin-bottom: 20px;
     }
+
     .contact-buttons .btn {
       font-size: 18px;
       font-weight: bold;
@@ -241,14 +244,17 @@ if (isset($_POST['submit'])) {
       margin: 10px;
       border-radius: 30px;
     }
+
     .call-btn {
       background-color: red;
       color: white;
     }
+
     .whatsapp-btn {
       background-color: green;
       color: white;
     }
+
     .bottom-strip {
       background-color: yellow;
       color: black;
@@ -260,85 +266,98 @@ if (isset($_POST['submit'])) {
     }
 
 
-.language-switch {
-    margin: 20px auto;
-}
-
-
-.btn-group {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-@media (min-width: 768px) {
-    .btn-group {
-        flex-direction: row;
+    .language-switch {
+      margin: 20px auto;
     }
-}
 
-/* Hide Google Translate toolbar elements */
-.goog-te-banner-frame {
-    display: none !important;
-}
 
-.goog-te-gadget {
-    display: none !important;
-}
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
 
-.goog-te-gadget-simple {
-    display: none !important;
-}
+    @media (min-width: 768px) {
+      .btn-group {
+        flex-direction: row;
+      }
+    }
 
-.goog-te-combo {
-    display: none !important;
-}
+    /* Hide Google Translate toolbar elements */
+    .goog-te-banner-frame {
+      display: none !important;
+    }
 
-.goog-te-gadget span {
-    display: none !important;
-}
+    .goog-te-gadget {
+      display: none !important;
+    }
 
-.goog-logo-link {
-    display: none !important;
-}
+    .goog-te-gadget-simple {
+      display: none !important;
+    }
 
+    .goog-te-combo {
+      display: none !important;
+    }
+
+    .goog-te-gadget span {
+      display: none !important;
+    }
+
+    .goog-logo-link {
+      display: none !important;
+    }
   </style>
-<!-- Carousel -->
-<div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <!-- Carousel -->
+  <!-- Hero Carousel Section -->
+  <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="photos/1.jpg" class="d-block w-100 d-md-none" alt="Mobile Image">
-            <img src="photos/1.jpg" class="d-none d-md-block w-100" alt="Desktop Image">
-        </div>
-    </div>
-</div>
+      <div class="carousel-item active position-relative">
+        <!-- Background Image for Mobile -->
+        <img src="photos/1.jpg" class="d-block w-100 d-md-none" alt="Mobile Image">
+        <!-- Background Image for Desktop -->
+        <img src="photos/1.jpg" class="d-none d-md-block w-100" alt="Desktop Image">
 
-<!-- Language Selector -->
-<div class="language-switch text-center py-1">
+        <!-- Overlay -->
+        <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.6);"></div>
+
+        <!-- Centered Text Content -->
+        <div class="hero-content position-absolute top-50 start-50 translate-middle text-white text-center px-3">
+          <h1 class="display-4 fw-bold">🌟 Star Fruits</h1>
+          <p class="lead">Delivering the freshest and finest fruits, from our farms to your table.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Language Selector -->
+  <div class="language-switch text-center py-1">
     <button class="btn btn-primary btn-lg px-4 py-2" onclick="changeLanguage('en')">English</button>
     <button class="btn btn-warning btn-lg px-4 py-2" onclick="changeLanguage('hi')">हिन्दी</button>
-</div>
+  </div>
 
-<div class="text-center pb-3" id="google_translate_element"></div>
+  <div class="text-center pb-3" id="google_translate_element"></div>
 
-<!-- Overlay with CTA -->
-<div class="content-overlay text-center" style="background-color:#ff5722; padding: 40px;">
+  <!-- Overlay with CTA -->
+  <div class="content-overlay text-center" style="background-color:#ff5722; padding: 40px;">
     <div class="container py-4">
-        <h1 class="custom-text display-3 text-white">Welcome To Star Fruits</h1>
-        <p class="lead mt-3 text-light">Your Trusted Exporter of Fresh Fruits, Vegetables & Areca Nuts</p>
+      <!-- <h1 class="custom-text display-3 text-white">Welcome To Star Fruits</h1> -->
+      <p class="lead mt-3 text-light">Your Trusted Exporter of Fresh Fruits, Vegetables & Areca Nuts</p>
 
-        <div class="banner mt-4">
-            <div class="row justify-content-center">
-                <div class="col-auto">
-                    <div class="btn-group">
-                        <button class="btn btn-danger btn-lg px-5 py-3" onclick="callNow()">✆ CALL NOW</button>
-                        <button class="btn btn-success btn-lg px-5 py-3" onclick="whatsapp()">💬 WHATSAPP</button>
-                    </div>
-                </div>
+      <div class="banner mt-4">
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <div class="btn-group">
+              <button class="btn btn-danger btn-lg px-5 py-3" onclick="callNow()">✆ CALL NOW</button>
+              <button class="btn btn-success btn-lg px-5 py-3" onclick="whatsapp()">💬 WHATSAPP</button>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </div>
   <!-- Modern Contact Section -->
 
   <section class="contact-section py-5">
@@ -347,7 +366,8 @@ if (isset($_POST['submit'])) {
         <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
           <h1 class="display-4 fw-bold" style="color: #ff5722;">Contact Us</h1>
           <p class="fs-5 text-muted">
-            Welcome to <span class="fw-bold text-dark">🌟Star Fruits</span>, your go-to destination for the freshest and most delightful fruits sourced from across India! Experience the true essence of nature's goodness with every bite.
+            Welcome to <span class="fw-bold text-dark">🌟 Star Fruits</span>, We sell fresh fruits, vegetables, and Arecanut in large quantities to shops, traders, hotels, supermarkets, and exporters.<br>
+            If you are looking for bulk supply at the best rates, we are here to help.
           </p>
           <ul class="list-unstyled text-muted fs-6">
             <li><i class="bi bi-check-circle-fill text-success"></i> <strong>Premium Quality:</strong> Finest handpicked fruits.</li>
@@ -373,7 +393,7 @@ if (isset($_POST['submit'])) {
                   <input type="email" class="form-control" id="email" name="email" required>
                 </div>
                 <div class="mb-3">
-                  <label for="message" class="form-label">Message</label>
+                  <label for="message" class="form-label">What do you want to buy?</label>
                   <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
                 </div>
                 <button type="submit" class="btn w-100 py-2" style="background-color: #ff5722; border: none; color: white;">Submit</button>
@@ -396,7 +416,9 @@ if (isset($_POST['submit'])) {
   <?php
   require("includes/vegetabless.php");
   ?>
+
   
+
   <?php
   include("partials/_footers.php");
   ?>
@@ -406,6 +428,3 @@ if (isset($_POST['submit'])) {
 </body>
 
 </html>
-
-
-

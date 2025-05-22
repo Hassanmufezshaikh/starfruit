@@ -67,6 +67,11 @@ if (isset($_GET['showAlert'])) {
 
                 <h2 class="text-center">Enquire Now</h2>
                 <p class="text-center">Fill in the form for more information.</p>
+<p class="text-left p-2">
+    Welcome to <strong>Starfruits</strong> — your reliable partner in the wholesale supply of <strong>fresh fruits</strong>, <strong>vegetables</strong>, and <strong>areca nuts</strong>. We specialize in bulk delivery across India, ensuring top quality, timely service, and competitive pricing for retailers, distributors, and exporters.
+</p>
+
+
                 <form action="/starfruits/home.php" method="post" class="p-4 border rounded bg-light">
                     <div class="form-group">
                         <label for="name">Name</label>
@@ -81,7 +86,7 @@ if (isset($_GET['showAlert'])) {
                         <input type="email" class="form-control" id="email" name="email" required>
                     </div>
                     <div class="form-group">
-                        <label for="message">Message</label>
+                        <label for="message">What do you want to buy?</label>
                         <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
                     </div>
                     <input type="hidden" name="page" id="page" value="conatctus">
