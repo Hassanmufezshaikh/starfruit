@@ -2,111 +2,150 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Welcome to iCoder. A blog for coding enthusiasts" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>About Us - Star Fruits</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <!-- Bootstrap CSS & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-        <style>
+    <style>
+        /* Hero Section */
+        .hero {
+            background: url('photos/1.jpg') center/cover no-repeat;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
 
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+        }
 
-            .custom-text {
-    color: tomato; /* Change this to your desiinfo text color */
-    font-weight: bold;
-    padding-left: 1rem;
-    
-  }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
 
+        /* Feature Sections */
+        .featurette {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
 
-     .img-large {
-        height: 600px; /* Set the fixed height for large screens */
-        width: 900px;
-        object-fit: cover; /* Maintain aspect ratio and cover the container */
-    } 
-        </style>
+        .featurette-heading {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #1e3a8a;
+        }
 
+        .featurette img {
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .featurette img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Icons */
+        .icon-box {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.3rem;
+        }
+
+        .icon-box i {
+            color: #ff5722;
+            font-size: 1.5rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                height: 50vh;
+            }
+        }
+    </style>
 </head>
 
 <body>
-<?php
-  require("partials/_nav.php");
-  ?>
-<div class="container my-5">
-        <div class="row featurette d-flex justify-content-Center align-items-center">
+
+    <?php require("partials/_nav.php"); ?>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="display-4 fw-bold">🌟 Star Fruits</h1>
+            <p class="lead">Delivering the freshest and finest fruits, from our farms to your table.</p>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container my-5">
+        <!-- Quality Commitment -->
+        <div class="row featurette d-flex align-items-center">
             <div class="col-md-7">
-                <h2 class="featurette-heading">Our Commitment to Quality. <span class="text-muted">Top-Quality Fresh Fruit Picks.</span></h2>
-                <p class="lead fs-4">At 🌟Star Fruits, we are dedicated to quality. Our commitment begins at the source, where we carefully select the finest fruits. Rigorous quality checks and adherence to international & domestic standards ensure that only the best products reach you . We take pride in our sustainable and eco-friendly practices, delivering not just fruits, but a promise of quality you can trust. </p>
-                <ul> 
-                    <li><h6 class="lead fs-3"><b>Timely Fruit Deliveries In India</b></h6> </li>
-                    <li><h6 class="lead fs-3"><b>Premium Fresh Fruits In India</b></h6> </li>
-                    <li><h6 class="lead fs-3"><b>Best Fruit Packaging Services In India</b></h6> </li>
-                 
-
-                </ul>
+                <h2 class="featurette-heading">Our Commitment to Quality. <span class="text-muted">Fresh & Premium.</span></h2>
+                <p class="lead">At 🌟Star Fruits, we handpick the best fruits to ensure <b>top-notch quality</b>. Our sustainable farming and rigorous quality checks guarantee that you receive the freshest produce. Taste the difference with us!</p>
+                <div class="icon-box"><i class="fas fa-check-circle"></i> 100% Organic & Fresh</div>
+                <div class="icon-box"><i class="fas fa-truck"></i> Fast & Safe Deliveries</div>
+                <div class="icon-box"><i class="fas fa-seedling"></i> Eco-Friendly Practices</div>
             </div>
             <div class="col-md-5">
-                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                src="photos/pin15.jpeg" class="img-fluid" alt="" >
-            </div>
-        </div>
-        <div class="row featurette d-flex justify-content-Center align-items-center my-5">
-            <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">Pineapple Processing Perfection. <span class="text-muted">Pure Pineapple.</span></h2>
-                <p class="lead">Explore Pineapple Processing Excellence! Delight in premium pineapple creations at our cutting-edge factory. Discover a variety of top-quality pineapple products, from delectable jams to canned delights and fresh treats. With a focus on freshness and taste, we bring you the essence of tropical goodness. Your go-to destination for the finest pineapples</p>
-                <ul> 
-                    <li><h6 class="lead fs-3"><b>Fruit Export Business India</b></h6> </li>
-                    <li><h6 class="lead fs-3"><b>Bulk Fruit Purchases for Businesses</b></h6> </li>
-                </ul>
-            </div>
-            <div class="col-md-5">
-                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                src="photos/03.jpeg" class="img-fluid" alt="" >
+                <img src="photos/pin15.jpeg" class="img-fluid" alt="Quality Fruits">
             </div>
         </div>
 
-        <div class="row featurette d-flex justify-content-Center align-items-center">
+        <!-- Pineapple Processing -->
+        <div class="row featurette d-flex align-items-center my-5">
+            <div class="col-md-5">
+                <img src="photos/03.jpeg" class="img-fluid" alt="Pineapple Processing">
+            </div>
             <div class="col-md-7">
-                <h2 class="featurette-heading">MISSION. <span class="text-muted">Helping communities thrive with fruits.</span></h2>
-                <p class="lead fs-4">At 🌟Star Fruits, our mission is clear: to deliver the freshest, highest-quality fruits and vegetables to elevate culinary experiences. Rooted in honesty and sustainability, we foster meaningful partnerships, ensuring customer happiness and growth. With meticulous sourcing and a focus on flavor, we're shaping a healthier food world, one partnership at a time.</p>
-            </div>
-            <div class="col-md-5">
-                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                src="photos/pin17.jpg" class="img-fluid" alt="" >
+                <h2 class="featurette-heading">Pineapple Processing Perfection. <span class="text-muted">Pure & Fresh.</span></h2>
+                <p class="lead">Our state-of-the-art pineapple processing ensures <b></b>high-quality pineapple products, including jams, canned fruits, and fresh packs. Taste the tropical goodness with every bite.</p>
+                <div class="icon-box"><i class="fas fa-box-open"></i> Bulk Orders Available</div>
+                <div class="icon-box"><i class="fas fa-award"></i> Export Quality</div>
             </div>
         </div>
 
-        <div class="row featurette d-flex justify-content-Center align-items-center my-5">
-            <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">VISSION. <span class="text-muted">Elevating lives through fruits.</span></h2>
-                <p class="lead">At 🌟Star Fruits, our vision extends beyond produce; we're redefining wholesomeness. As industry pioneers, we aim to be the go-to source for businesses seeking premium, sustainable fruits and vegetables. Our innovative approach and eco-conscious practices drive us toward a future where each bite contributes to a flavorful, nutritious, and planet-friendly world. Join us in cultivating a greener, tastier tomorrow.</p>
+        <!-- Mission & Vision -->
+        <div class="row featurette d-flex align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Our Mission. <span class="text-muted">Health & Sustainability.</span></h2>
+                <p class="lead">🌟Star Fruits aims to provide the freshest, highest-quality fruits and vegetables while promoting <b>sustainability</b>. We are committed to delivering nutrition, taste, and <b>eco-friendly</b> solutions to our customers.</p>
             </div>
             <div class="col-md-5">
-                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                src="photos/pin16.jpg" class="img-fluid" alt="" >
+                <img src="photos/pin17.jpg" class="img-fluid" alt="Mission">
             </div>
         </div>
 
-</div>
+        <div class="row featurette d-flex align-items-center my-5">
+            <div class="col-md-5">
+                <img src="photos/pin16.jpg" class="img-fluid" alt="Vision">
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Our Vision. <span class="text-muted">A Healthier Future.</span></h2>
+                <p class="lead">At 🌟Star Fruits, we <b>envision</b> a world where premium, sustainable fruits are accessible to all. Join us in our journey to make healthy, organic, and delicious produce a part of every home.</p>
+            </div>
+        </div>
+    </div>
 
+    <?php include("partials/_footers.php"); ?>
 
-<?php
-    include("partials/_footers.php");
-    ?>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>

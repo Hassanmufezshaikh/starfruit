@@ -1,4 +1,5 @@
 <?php
+session_start();
 $showAlert = false;
 $showError = false;
 
@@ -25,46 +26,72 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $showError = "All fields are required";
     }
 }
+
+if (isset($_GET['showAlert'])) {
+    if ($_GET['showAlert'] == "success")
+        $showAlert = true;
+}
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <title>Contact Us</title>
 </head>
+
 <body>
     <?php include("partials/_nav.php"); ?>
 
-    <div class="container mt-4">
-        <?php if ($showAlert) echo '<div class="alert alert-success">Form submitted successfully!</div>'; ?>
-        <?php if ($showError) echo '<div class="alert alert-danger">' . $showError . '</div>'; ?>
-        
-        <h2 class="text-center">Enquire Now</h2>
-        <p class="text-center">Fill in the form for more information.</p>
-        <form action="contactus.php" method="post" class="p-4 border rounded bg-light">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" name="name" required>
+    <div class="container mt-4 mb-5">
+        <?php
+        if ($showAlert) {
+            echo ' <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Success!</strong> Great job! 🎉 Your form has been submitted successfully, and we' . "'" . 've received your email. Thanks for reaching out! 😊
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">×</span>
+        </button>
+    </div> ';
+        }
+
+        ?>
+        <div class="row">
+            <div class="col-md-8 col-lg-6 mx-auto"> <!-- Adjust width for tablets & laptops -->
+                <?php if ($showAlert) echo '<div class="alert alert-success">Form submitted successfully!</div>'; ?>
+                <?php if ($showError) echo '<div class="alert alert-danger">' . $showError . '</div>'; ?>
+                <?php //session_destroy(); 
+                ?>
+
+                <h2 class="text-center">Enquire Now</h2>
+                <p class="text-center">Fill in the form for more information.</p>
+                <form action="/starfruits/home.php" method="post" class="p-4 border rounded bg-light">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                    </div>
+                    <input type="hidden" name="page" id="page" value="conatctus">
+                    <button type="submit" name="submit" class="btn btn-primary btn-block">Submit</button>
+                </form>
             </div>
-            <div class="form-group">
-                <label for="phone">Phone</label>
-                <input type="tel" class="form-control" id="phone" name="phone" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Submit</button>
-        </form>
+        </div>
     </div>
 
     <?php include("partials/_footers.php"); ?>
 </body>
+
 </html>

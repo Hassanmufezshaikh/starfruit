@@ -1,63 +1,105 @@
 <style>
-    .navbar-dark .navbar-nav .nav-link {
-        color: #20e7ea; /* Replace #333 with your desired dark color */
+    /* Custom Navbar Styling */
+    .navbar-custom {
+        background: linear-gradient(135deg, #ff5722, #ff9800);
+        /* Trendy gradient */
+        padding: 10px 20px;
     }
 
-    /* Add some horizontal spacing between the buttons */
-    .navbar-nav .nav-item {
-        margin-right: 10px; /* Adjust the value to increase/decrease spacing */
-    }
-
-    /* Set the text color of the buttons to white */
-    .navbar-nav .nav-item .btn {
+    .navbar-custom .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
         color: white;
+    }
+
+    .navbar-custom .nav-link {
+        color: white !important;
+        font-weight: 500;
+        transition: 0.3s ease-in-out;
+        padding: 8px 15px;
+    }
+
+    .navbar-custom .nav-link:hover {
+        color: #000 !important;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+
+    .navbar-custom .btn-custom {
+        border: 2px solid white;
+        color: white;
+        transition: 0.3s ease-in-out;
+    }
+
+    .navbar-custom .btn-custom:hover {
+        background: white;
+        color: #ff5722;
+    }
+
+    /* Dropdown menu customization */
+    .dropdown-menu {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 5px;
+    }
+
+    .dropdown-item:hover {
+        background: #ff5722;
+        color: white;
+    }
+
+    /* Adjustments for smaller screens */
+    @media (max-width: 768px) {
+        .navbar-custom {
+            padding: 10px;
+        }
+
+        .navbar-nav {
+            text-align: center;
+        }
     }
 </style>
 
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:hsla(13, 100%, 55%, 0.922);" >
-    <a class="navbar-brand  custom-text" href="/starfruits"> 🌟STAR FRUITS </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+        <a class="navbar-brand" href="/starfruits">🌟 STAR FRUITS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><a class="text-white" href="/starfruits">HOME <span class="sr-only">(current)</span></a></button> -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/starfruits">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php">About</a>
+                </li>
 
-                <a class="btn btn-outline-light my-2 my-sm-0 text-white" href="/starfruits">HOME <span class="sr-only">(current)</span></a>
+                <!-- Dropdown for Categories -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Categories
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="fruits.php">Fruits</a></li>
+                        <li><a class="dropdown-item" href="vegetables.php">Vegetables</a></li>
+                    </ul>
+                </li>
 
-            </li>
-            <li class="nav-item">
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.php">Contact</a>
+                </li>
 
-            <a class="btn btn-outline-light my-2 my-sm-0 text-white" href="about.php">ABOUT</a>
-
-                <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><a class="text-white" href="about.php">ABOUT</a></button> -->
-            </li>
-            <li class="nav-item">
-            <a class="btn btn-outline-light my-2 my-sm-0 text-white"  href="fruits.php">FRUITS</a>
-
-                <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><a class="text-white" href="fruits.php">FRUITS</a></button> -->
-            </li>
-            <li class="nav-item">
-
-            <a class="btn btn-outline-light my-2 my-sm-0 text-white"   href="vegetables.php">VEGETABLES</a>
-
-                <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><a class="text-white" href="vegetables.php">VEGETABLES</a></button> -->
-            </li>
-            <li class="nav-item">
-
-            <a class="btn btn-outline-light my-2 my-sm-0 text-white"  href="contactus.php">CONTACT</a>
-
-                <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><a class="text-white"  href="contactus.php">CONTACT</a></button> -->
-            </li>
-        </ul>
-        <!-- <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-        </form> -->
+                <!-- Call to Action Button -->
+                <!-- <li class="nav-item">
+                    <a class="btn btn-custom ms-3" href="shop.php">Shop Now</a>
+                </li> -->
+            </ul>
+        </div>
     </div>
 </nav>
 
-
+<!-- Bootstrap 5 JS (Required for dropdown) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
