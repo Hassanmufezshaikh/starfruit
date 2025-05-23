@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Welcome to iCoder. A blog for coding enthusiasts" />
-
+    <meta name="description" content="Buy fresh fruits in bulk directly from Star Fruits – a trusted wholesale supplier and exporter across mumbai, bengaluru, delhi, punjab, India. Supplying mangoes, bananas, papaya, pineapple, and more at best prices." />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-
-    <title>Fruits</title>
+    <title>Fresh Fruits Wholesale Supplier in India | Star Fruits Exporter</title>
     <style>
         body {
             background-color: #f8f9fa;
@@ -111,18 +108,17 @@
         <div class="row">
             <?php
             $products = [
-                ["name" => "Pineapple", "image" => "photos/4.jpg"],
-                ["name" => "Papaya", "image" => "photos/8.jpg"],
-                ["name" => "Tender Coconut", "image" => "photos/66.jpg"],
-                ["name" => "Watermelon", "image" => "photos/pin13.jpg"],
-                ["name" => "Grapes", "image" => "photos/pin11.jpg"],
-                ["name" => "Pomegranate", "image" => "photos/pin9.jpg"],
-                ["name" => "Muskmelon", "image" => "photos/pin14.jpg"],
-                ["name" => "Banana", "image" => "photos/10.jpg"],
-                ["name" => "Strawberry", "image" => "photos/11.jpg"],
-                ["name" => "Oranges", "image" => "photos/13.jpg"],
-                ["name" => "Apple", "image" => "photos/pin12.jpg"],
-                ["name" => "Mango", "image" => "photos/pin10.jpg"],
+                ["name" => "Pineapple", "image" => "photos/4.jpg", "alt" => "Fresh Pineapple Wholesale Supplier India – Star Fruits"],
+                ["name" => "Papaya", "image" => "photos/8.jpg", "alt" => "Bulk Papaya Distributor – Farm Fresh Papaya for Sale"],
+                ["name" => "Tender Coconut", "image" => "photos/66.jpg", "alt" => "Tender Coconut Wholesale Delivery – Star Fruits India"],
+                ["name" => "Watermelon", "image" => "photos/pin13.jpg", "alt" => "Juicy Watermelon in Bulk – Wholesale Supplier India"],
+                ["name" => "Grapes", "image" => "photos/pin11.jpg", "alt" => "FresTop-Quality Pomegranates for Bulk Orders – India Distributor"],
+                ["name" => "Muskmelon", "image" => "photos/pin14.jpg", "alt" => "Sweet Muskmelon Supplier in India – Bulk Fruit Exporter"],
+                ["name" => "Banana", "image" => "photos/10.jpg", "alt" => "Fresh Bananas for Hotels and Traders – Star Fruits Supply"],
+                ["name" => "Strawberry", "image" => "photos/11.jpg", "alt" => "Organic Strawberries in Bulk – Indian Fruit Wholesaler"],
+                ["name" => "Oranges", "image" => "photos/13.jpg", "alt" => "Citrus Oranges Wholesale – Fresh Stock Supplier India"],
+                ["name" => "Apple", "image" => "photos/pin12.jpg", "alt" => "Crisp Red Apples for Bulk Sale – Star Fruits India"],
+                ["name" => "Mango", "image" => "photos/pin10.jpg", "alt" => "Export Quality Mangoes – Alphonso, Kesar in Bulk India"],
             ];
             foreach ($products as $product) {
             ?>
@@ -137,7 +133,6 @@
             <?php } ?>
         </div>
     </div>
-
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

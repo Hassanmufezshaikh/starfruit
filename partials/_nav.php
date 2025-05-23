@@ -47,7 +47,6 @@
         color: white;
     }
 
-    /* Adjustments for smaller screens */
     @media (max-width: 768px) {
         .navbar-custom {
             padding: 10px;
@@ -58,7 +57,6 @@
         }
     }
 </style>
-
 <nav class="navbar navbar-expand-lg navbar-custom">
     <div class="container">
         <a class="navbar-brand" href="/starfruits">🌟 STAR FRUITS</a>
@@ -92,10 +90,6 @@
                     <a class="nav-link" href="contactus.php">Contact</a>
                 </li>
 
-                <!-- Call to Action Button -->
-                <!-- <li class="nav-item">
-                    <a class="btn btn-custom ms-3" href="shop.php">Shop Now</a>
-                </li> -->
             </ul>
         </div>
     </div>

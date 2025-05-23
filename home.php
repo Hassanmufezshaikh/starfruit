@@ -81,10 +81,36 @@ if (isset($_POST['submit'])) {
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
   <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script src="js/script.js"></script>
+
 
   <link rel="stylesheet" href="styles.css">
   <title>Starfruits</title>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Star Fruits",
+    "url": "https://www.yourdomain.com",
+    "logo": "https://www.yourdomain.com/logo.png",
+    "description": "Wholesale supplier of fresh fruits, vegetables and areca nuts in India.",
+    "address": {
+      "streetAddress": "No. 123, Fruit Market Road",
+      "addressLocality": "Bengaluru",
+      "addressRegion": "Karnataka",
+      "postalCode": "560001",
+      "addressCountry": "IN"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-8296205418",
+      "contactType": "Customer Service"
+    }
+  }
+  </script>
 </head>
 
 <body>
@@ -331,7 +357,7 @@ if (isset($_POST['submit'])) {
   </div>
 
 
-
+<div class="text-center pb-1" id="google_translate_element"></div>
   <!-- Language Selector -->
   <div class="language-switch text-center py-1">
     <button class="btn btn-primary btn-lg px-4 py-2" onclick="changeLanguage('en')">English</button>
@@ -350,7 +376,7 @@ if (isset($_POST['submit'])) {
         <div class="row justify-content-center">
           <div class="col-auto">
             <div class="btn-group">
-              <button class="btn btn-danger btn-lg px-5 py-3" onclick="callNow()">✆ CALL NOW</button>
+              <button class="btn btn-danger btn-lg px-5 py-3" onclick="callNow()">✆ CALL FOR BULK ORDERS</button>
               <button class="btn btn-success btn-lg px-5 py-3" onclick="whatsapp()">💬 WHATSAPP</button>
             </div>
           </div>
@@ -416,14 +442,10 @@ if (isset($_POST['submit'])) {
   <?php
   require("includes/vegetabless.php");
   ?>
-
-  
-
   <?php
   include("partials/_footers.php");
   ?>
 
-  <!-- Bootstrap Icons & Bootstrap 5 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 </body>
 

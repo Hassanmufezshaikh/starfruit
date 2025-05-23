@@ -1,9 +1,9 @@
 function callNow() {
-    window.open("tel:+919448747147", "_blank");
+    window.open("tel:+919945029443", "_blank");
 }
 
 function whatsapp() {
-    window.open("https://wa.me/+919945029443", "_blank");
+    window.open("https://wa.me/+918296205418", "_blank");
 }
 
 // Google Translate API Initialization
@@ -19,3 +19,4 @@ function changeLanguage(language) {
         googleTranslateDropdown.dispatchEvent(new Event("change"));
     }
 }
+

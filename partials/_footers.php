@@ -4,17 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star Fruits Footer</title>
+    <meta name="description" content="Star Fruits is a leading wholesale distributor and exporter of fresh fruits, vegetables, and areca nuts in India. Supplying bulk produce to Zepto, Amazon Fresh, food factories, and international buyers." />
 
-    <!-- Bootstrap & Icons -->
+    <title>Star Fruits | Bulk Supplier of Fresh Fruits, Vegetables & Areca Nuts in India</title>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <style>
-        /* Unique Footer Styling */
         .sf-footer {
             background: linear-gradient(to right, #f8f9fa, #e9ecef, #dee2e6);
-            /* Light Pastel Theme */
             color: #333;
             padding: 50px 0;
             font-size: 16px;
@@ -22,7 +21,6 @@
 
         .sf-footer h5 {
             color: #ff5722;
-            /* Green theme */
             font-weight: bold;
             text-transform: uppercase;
             margin-bottom: 20px;
@@ -48,7 +46,6 @@
             text-decoration: underline;
         }
 
-        /* Social Icons */
         .sf-social-icons a {
             display: inline-block;
             width: 40px;
@@ -68,7 +65,6 @@
             transform: scale(1.1);
         }
 
-        /* Footer Bottom */
         .sf-footer-bottom {
             text-align: center;
             padding-top: 20px;
@@ -77,7 +73,6 @@
             font-size: 14px;
         }
 
-        /* Responsive Design */
         @media (max-width: 768px) {
             .sf-footer {
                 text-align: center;
@@ -87,12 +82,9 @@
 </head>
 
 <body>
-
-    <!-- Footer Section -->
     <footer class="sf-footer">
         <div class="container">
             <div class="row">
-                <!-- About Section -->
                 <div class="col-lg-3 col-md-6">
                     <h5>About</h5>
                     <ul>
@@ -101,8 +93,6 @@
                         <li><a href="vegetables.php">Vegetables</a></li>
                     </ul>
                 </div>
-
-                <!-- Contact Section -->
                 <div class="col-lg-3 col-md-6">
                     <h5>Contact</h5>
                     <ul>
@@ -111,8 +101,6 @@
                         <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=starfruitar@gmail.com" target="_blank">Email Us</a></li>
                     </ul>
                 </div>
-
-                <!-- Social Media Section -->
                 <div class="col-lg-3 col-md-6">
                     <h5>Follow Us</h5>
                     <div class="sf-social-icons">
@@ -121,29 +109,24 @@
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
-
-                <!-- Address Section -->
                 <div class="col-lg-3 col-md-6">
                     <h5>Our Location</h5>
                     <ul>
-                        <li>Sirsi, Karnataka</li>
+                        <li>Karnataka</li>
                         <li><a href="contactus.php">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
 
-            <!-- Footer Bottom -->
             <div class="sf-footer-bottom">
+                <small class="text-muted">Bulk Supplier | Exporter | B2B Distributor | India</small>
                 <p>&copy; <span id="sf-year"></span> 🌟 Star Fruits Company, Inc. | All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
     <script>
-        // Update Year Automatically
         document.getElementById("sf-year").textContent = new Date().getFullYear();
     </script>
-
 </body>
-
 </html>

@@ -3,16 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>About Us - Star Fruits</title>
-
-    <!-- Bootstrap CSS & Icons -->
+    <meta name="description" content="Learn about Star Fruits - India's trusted wholesale supplier of fresh fruits, vegetables, and areca nuts. Supplying to traders, supermarkets, amazonfresh, online busniness and exporters at discount prices." />
+    <title>About Star Fruits | Wholesale Supplier of Fresh Fruits, Vegetables & Areca Nuts in India</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <style>
-
-
         .hero-overlay {
             position: absolute;
             top: 0;
@@ -27,7 +23,6 @@
             z-index: 2;
         }
 
-        /* Feature Sections */
         .featurette {
             padding: 80px 0;
             background: #f8f9fa;
@@ -48,7 +43,6 @@
             transform: scale(1.05);
         }
 
-        /* Icons */
         .icon-box {
             display: flex;
             align-items: center;
@@ -61,7 +55,6 @@
             font-size: 1.5rem;
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
             .hero {
                 height: 50vh;
@@ -69,11 +62,10 @@
         }
     </style>
 </head>
+
 <body>
-    <!-- Content Section -->
     <div class="container my-5">
-        <!-- Quality Commitment -->
-                 <div class="row featurette d-flex align-items-center my-5">
+        <div class="row featurette d-flex align-items-center my-5">
             <div class="col-md-5">
                 <img src="photos/areca-nuts.png" class="img-fluid" alt="Areca Nuts Wholesale Export">
             </div>
@@ -83,7 +75,6 @@
                 <div class="icon-box"><i class="fas fa-truck"></i> Bulk Supply Across States</div>
                 <div class="icon-box"><i class="fas fa-warehouse"></i> Ready Stock & Fast Delivery</div>
             </div>
-
         </div>
         <div class="row featurette d-flex align-items-center">
             <div class="col-md-7">
@@ -94,11 +85,9 @@
                 <div class="icon-box"><i class="fas fa-seedling"></i> Eco-Friendly Practices</div>
             </div>
             <div class="col-md-5">
-                <img src="photos/pin15.jpeg" class="img-fluid" alt="Quality Fruits">
+                <img src="photos/pin15.jpeg" class="img-fluid" alt="Wholesale Areca Nuts Supplier India - Star Fruits">
             </div>
         </div>
-
-
     </div>
 </body>
 </html>

@@ -60,16 +60,16 @@ if (isset($_GET['showAlert'])) {
         ?>
         <div class="row">
             <div class="col-md-8 col-lg-6 mx-auto"> <!-- Adjust width for tablets & laptops -->
-                <?php if ($showAlert) echo '<div class="alert alert-success">Form submitted successfully!</div>'; ?>
+                <!-- <?php if ($showAlert) echo '<div class="alert alert-success">Form submitted successfully!</div>'; ?> -->
                 <?php if ($showError) echo '<div class="alert alert-danger">' . $showError . '</div>'; ?>
                 <?php //session_destroy(); 
                 ?>
 
                 <h2 class="text-center">Enquire Now</h2>
                 <p class="text-center">Fill in the form for more information.</p>
-<p class="text-left p-2">
-    Welcome to <strong>Starfruits</strong> — your reliable partner in the wholesale supply of <strong>fresh fruits</strong>, <strong>vegetables</strong>, and <strong>areca nuts</strong>. We specialize in bulk delivery across India, ensuring top quality, timely service, and competitive pricing for retailers, distributors, and exporters.
-</p>
+                <p class="text-left p-2">
+                    Welcome to <strong>Starfruits</strong> — your reliable partner in the wholesale supply of <strong>fresh fruits</strong>, <strong>vegetables</strong>, and <strong>areca nuts</strong>. We specialize in bulk delivery across India, ensuring top quality, timely service, and competitive pricing for retailers, distributors, and exporters.
+                </p>
 
 
                 <form action="/starfruits/home.php" method="post" class="p-4 border rounded bg-light">
