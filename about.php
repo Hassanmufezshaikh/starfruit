@@ -4,16 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>About Us - Star Fruits</title>
+    <meta name="description" content="Learn about Star Fruits, a leading wholesale supplier of fresh fruits, vegetables, and areca nuts in India. We serve exporters, supermarkets, food factories, and online grocery platforms with bulk orders and best prices." />
 
+    <title>About Star Fruits | Wholesale Exporter of Fruits, Vegetables & Areca Nuts in India</title>
     <!-- Bootstrap CSS & Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <style>
-        /* Hero Section */
         .hero {
-            background: url('photos/1.jpg') center/cover no-repeat;
+            background: url('photos/fruits.jpg') center/cover no-repeat;
             height: 70vh;
             display: flex;
             align-items: center;
@@ -37,7 +37,6 @@
             z-index: 2;
         }
 
-        /* Feature Sections */
         .featurette {
             padding: 80px 0;
             background: #f8f9fa;
@@ -58,7 +57,6 @@
             transform: scale(1.05);
         }
 
-        /* Icons */
         .icon-box {
             display: flex;
             align-items: center;
@@ -71,7 +69,6 @@
             font-size: 1.5rem;
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
             .hero {
                 height: 50vh;
@@ -81,10 +78,8 @@
 </head>
 
 <body>
-
     <?php require("partials/_nav.php"); ?>
 
-    <!-- Hero Section -->
     <div class="hero">
         <div class="hero-overlay"></div>
         <div class="hero-content">
@@ -93,11 +88,10 @@
         </div>
     </div>
 
-    <!-- Content Section -->
     <div class="container my-5">
         <div class="row featurette d-flex align-items-center my-5">
             <div class="col-md-5">
-                <img src="photos/areca-nuts.png" class="img-fluid" alt="Areca Nuts Wholesale Export">
+                <img src="photos/areca-nuts.png" class="img-fluid" alt="Premium Areca Nuts (Supari) – Bulk Supplier Across India">
             </div>
             <div class="col-md-7">
                 <h2 class="featurette-heading">Top-Quality Areca Nuts. <span class="text-muted">Supply</span></h2>
@@ -108,7 +102,6 @@
 
         </div>
 
-        <!-- Quality Commitment -->
         <div class="row featurette d-flex align-items-center">
             <div class="col-md-7">
                 <h2 class="featurette-heading">Our Commitment to Quality. <span class="text-muted">Fresh & Premium.</span></h2>
@@ -118,14 +111,13 @@
                 <div class="icon-box"><i class="fas fa-seedling"></i> Eco-Friendly Practices</div>
             </div>
             <div class="col-md-5">
-                <img src="photos/pin15.jpeg" class="img-fluid" alt="Quality Fruits">
+                <img src="photos/pin15.jpeg" class="img-fluid" alt="Farm Fresh Quality Fruits – Organic and Export Ready from Star Fruits">
             </div>
         </div>
 
-        <!-- Pineapple Processing -->
         <div class="row featurette d-flex align-items-center my-5">
             <div class="col-md-5">
-                <img src="photos/03.jpeg" class="img-fluid" alt="Pineapple Processing">
+                <img src="photos/03.jpeg" class="img-fluid" alt="Pineapple Processing Facility – Canned, Jams & Fresh Cut Supply by Star Fruits">
             </div>
             <div class="col-md-7">
                 <h2 class="featurette-heading">Pineapple Processing Perfection. <span class="text-muted">Pure & Fresh.</span></h2>
@@ -135,7 +127,6 @@
             </div>
         </div>
 
-        <!-- Mission & Vision -->
         <div class="row featurette d-flex align-items-center">
             <div class="col-md-7">
                 <h2 class="featurette-heading">Our Mission. <span class="text-muted">Health & Sustainability.</span></h2>
@@ -151,13 +142,13 @@
 
             </div>
             <div class="col-md-5">
-                <img src="photos/pin17.jpg" class="img-fluid" alt="Mission">
+                <img src="photos/pin17.jpg" class="img-fluid" alt="Sustainable Mission of Star Fruits – Fresh & Healthy for Everyone">
             </div>
         </div>
 
         <div class="row featurette d-flex align-items-center my-5">
             <div class="col-md-5">
-                <img src="photos/pin16.jpg" class="img-fluid" alt="Vision">
+                <img src="photos/pin16.jpg" class="img-fluid" alt="Vision of Star Fruits – Making Organic and Nutritious Produce Accessible Globally">
             </div>
             <div class="col-md-7">
                 <h2 class="featurette-heading">Our Vision. <span class="text-muted">A Healthier Future.</span></h2>
@@ -183,9 +174,6 @@
             </div>
         </div>
     </div>
-
     <?php include("partials/_footers.php"); ?>
-
 </body>
-
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -98,8 +99,8 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="photos/pin18.jpg" class="image_mobile img-fluid w-100  d-md-none d-lg-none" height="" alt="">
-                <img src="photos/pin18.jpg" class="image_desktop w-100 d-none d-sm-block  " alt="">
+                <img src="photos/fresh-fruits.jpg" class="image_mobile img-fluid w-100  d-md-none d-lg-none" height="" alt="">
+                <img src="photos/fresh-fruits.jpg" class="image_desktop w-100 d-none d-sm-block  " alt="">
             </div>
         </div>
     </div>
@@ -108,17 +109,19 @@
         <div class="row">
             <?php
             $products = [
-                ["name" => "Pineapple", "image" => "photos/4.jpg", "alt" => "Fresh Pineapple Wholesale Supplier India – Star Fruits"],
-                ["name" => "Papaya", "image" => "photos/8.jpg", "alt" => "Bulk Papaya Distributor – Farm Fresh Papaya for Sale"],
-                ["name" => "Tender Coconut", "image" => "photos/66.jpg", "alt" => "Tender Coconut Wholesale Delivery – Star Fruits India"],
-                ["name" => "Watermelon", "image" => "photos/pin13.jpg", "alt" => "Juicy Watermelon in Bulk – Wholesale Supplier India"],
-                ["name" => "Grapes", "image" => "photos/pin11.jpg", "alt" => "FresTop-Quality Pomegranates for Bulk Orders – India Distributor"],
-                ["name" => "Muskmelon", "image" => "photos/pin14.jpg", "alt" => "Sweet Muskmelon Supplier in India – Bulk Fruit Exporter"],
-                ["name" => "Banana", "image" => "photos/10.jpg", "alt" => "Fresh Bananas for Hotels and Traders – Star Fruits Supply"],
-                ["name" => "Strawberry", "image" => "photos/11.jpg", "alt" => "Organic Strawberries in Bulk – Indian Fruit Wholesaler"],
-                ["name" => "Oranges", "image" => "photos/13.jpg", "alt" => "Citrus Oranges Wholesale – Fresh Stock Supplier India"],
-                ["name" => "Apple", "image" => "photos/pin12.jpg", "alt" => "Crisp Red Apples for Bulk Sale – Star Fruits India"],
-                ["name" => "Mango", "image" => "photos/pin10.jpg", "alt" => "Export Quality Mangoes – Alphonso, Kesar in Bulk India"],
+                ["name" => "Pineapple", "image" => "photos/pineapple.jpg", "alt" => "Fresh Pineapple Wholesale Supplier India – Star Fruits"],
+                ["name" => "Papaya", "image" => "photos/papaya.jpg", "alt" => "Bulk Papaya Distributor – Farm Fresh Papaya for Sale"],
+                ["name" => "Tender Coconut", "image" => "photos/tendercocnut.jpg", "alt" => "Tender Coconut Wholesale Delivery – Star Fruits India"],
+                ["name" => "Watermelon", "image" => "photos/watermelon.jpg", "alt" => "Juicy Watermelon in Bulk – Wholesale Supplier India"],
+                ["name" => "Grapes", "image" => "photos/grapes.jpg", "alt" => "FresTop-Quality Pomegranates for Bulk Orders – India Distributor"],
+                ["name" => "Muskmelon", "image" => "photos/muskleon.jpg", "alt" => "Sweet Muskmelon Supplier in India – Bulk Fruit Exporter"],
+                ["name" => "Banana", "image" => "photos/banana.jpg", "alt" => "Fresh Bananas for Hotels and Traders – Star Fruits Supply"],
+                ["name" => "Strawberry", "image" => "photos/strawberry.jpg", "alt" => "Organic Strawberries in Bulk – Indian Fruit Wholesaler"],
+                ["name" => "Oranges", "image" => "photos/organes.jpg", "alt" => "Citrus Oranges Wholesale – Fresh Stock Supplier India"],
+                ["name" => "Apple", "image" => "photos/apple.jpg", "alt" => "Crisp Red Apples for Bulk Sale – Star Fruits India"],
+                ["name" => "Mango", "image" => "photos/mango.jpg", "alt" => "Export Quality Mangoes – Alphonso, Kesar in Bulk India"],
+                ["name" => "arec-nuts", "image" => "photos/areca-nuts.png", "alt" => "Export Quality Areca Nuts – Bulk Supplier India"],
+
             ];
             foreach ($products as $product) {
             ?>

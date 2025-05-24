@@ -67,8 +67,6 @@ if (isset($_POST['submit'])) {
 }
 
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -90,26 +88,26 @@ if (isset($_POST['submit'])) {
   <title>Starfruits</title>
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Star Fruits",
-    "url": "https://www.yourdomain.com",
-    "logo": "https://www.yourdomain.com/logo.png",
-    "description": "Wholesale supplier of fresh fruits, vegetables and areca nuts in India.",
-    "address": {
-      "streetAddress": "No. 123, Fruit Market Road",
-      "addressLocality": "Bengaluru",
-      "addressRegion": "Karnataka",
-      "postalCode": "560001",
-      "addressCountry": "IN"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+91-8296205418",
-      "contactType": "Customer Service"
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Star Fruits",
+      "url": "https://www.yourdomain.com",
+      "logo": "https://www.yourdomain.com/logo.png",
+      "description": "Wholesale supplier of fresh fruits, vegetables and areca nuts in India.",
+      "address": {
+        "streetAddress": "No. 123, Fruit Market Road",
+        "addressLocality": "Bengaluru",
+        "addressRegion": "Karnataka",
+        "postalCode": "560001",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-8296205418",
+        "contactType": "Customer Service"
+      }
     }
-  }
   </script>
 </head>
 
@@ -171,52 +169,36 @@ if (isset($_POST['submit'])) {
       }
     }
 
-    /* For desktop view */
     @media (min-width: 768px) {
       .custom-text-desktops {
         font-weight: bold;
         color: tomato;
-        /* Change this to your desired text color */
-        /* font-size: 200px; Adjust the font size for desktop view */
+
       }
     }
 
     #sass {
       color: tomato;
-
-
     }
 
     #sas {
       color: tomato;
-
     }
 
     #sas1 {
       color: white;
-
     }
 
     #sas2 {
       color: white;
-
     }
 
     #sas3 {
       color: white;
-
     }
 
-    /* @media (max-width: 100) {
-    .image_mobile {
-
-    }
-} */
-
-    /* For desktop view */
     .image_desktop {
       height: 600px;
-      /* Set your desired fixed height */
     }
 
     .carousel-item img {
@@ -236,7 +218,6 @@ if (isset($_POST['submit'])) {
     .card:hover {
       transform: scale(1.05);
     }
-
 
     body {
       margin: 0;
@@ -291,7 +272,6 @@ if (isset($_POST['submit'])) {
       border-bottom: 2px solid blue;
     }
 
-
     .language-switch {
       margin: 20px auto;
     }
@@ -333,21 +313,54 @@ if (isset($_POST['submit'])) {
     .goog-logo-link {
       display: none !important;
     }
+    .btn:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+
+    .lang-btn {
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .btn-en {
+    background: linear-gradient(to right, #007bff, #3399ff);
+    color: white;
+  }
+
+  .btn-hi {
+    background: linear-gradient(to right, #ffc107, #ff9800);
+    color: #212529;
+  }
+
+  .lang-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  #google_translate_element select {
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
   </style>
   <!-- Carousel -->
   <!-- Hero Carousel Section -->
   <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active position-relative">
-        <!-- Background Image for Mobile -->
-        <img src="photos/1.jpg" class="d-block w-100 d-md-none" alt="Mobile Image">
-        <!-- Background Image for Desktop -->
-        <img src="photos/1.jpg" class="d-none d-md-block w-100" alt="Desktop Image">
-
-        <!-- Overlay -->
+        <img src="photos/fruits.jpg" class="d-block w-100 d-md-none" alt="Mobile Image">
+        <img src="photos/fruits.jpg" class="d-none d-md-block w-100" alt="Desktop Image">
         <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.6);"></div>
-
-        <!-- Centered Text Content -->
         <div class="hero-content position-absolute top-50 start-50 translate-middle text-white text-center px-3">
           <h1 class="display-4 fw-bold">🌟 Star Fruits</h1>
           <p class="lead">Delivering the freshest and finest fruits, from our farms to your table.</p>
@@ -357,34 +370,45 @@ if (isset($_POST['submit'])) {
   </div>
 
 
-<div class="text-center pb-1" id="google_translate_element"></div>
-  <!-- Language Selector -->
-  <div class="language-switch text-center py-1">
-    <button class="btn btn-primary btn-lg px-4 py-2" onclick="changeLanguage('en')">English</button>
-    <button class="btn btn-warning btn-lg px-4 py-2" onclick="changeLanguage('hi')">हिन्दी</button>
+<!-- 🌐 Language Switcher Container -->
+<div class="container text-center my-4">
+  <div class="bg-white shadow rounded-4 p-4 mx-auto" style="max-width: 500px;">
+    <h5 class="mb-3 fw-semibold text-secondary">🌍 Choose Your Language</h5>
+
+    <!-- Language Buttons -->
+    <div class="d-flex justify-content-center gap-3 flex-wrap">
+      <button class="lang-btn btn-en" onclick="changeLanguage('en')">
+        🇺🇸 English
+      </button>
+      <button class="lang-btn btn-hi" onclick="changeLanguage('hi')">
+        🇮🇳 हिन्दी
+      </button>
+    </div>
+
+    <!-- Google Translate Dropdown (Hidden by default, styled cleanly) -->
+    <div id="google_translate_element" class="mt-3" style="font-size: 0;"></div>
   </div>
+</div>
+
 
   <div class="text-center pb-3" id="google_translate_element"></div>
 
-  <!-- Overlay with CTA -->
-  <div class="content-overlay text-center" style="background-color:#ff5722; padding: 40px;">
-    <div class="container py-4">
-      <!-- <h1 class="custom-text display-3 text-white">Welcome To Star Fruits</h1> -->
-      <p class="lead mt-3 text-light">Your Trusted Exporter of Fresh Fruits, Vegetables & Areca Nuts</p>
+<div class="content-overlay text-center text-white" style="background: linear-gradient(135deg, #ff5722, #ff7043); padding: 60px 20px; border-radius: 0 0 40px 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
+  <div class="container py-4">
+    <h2 class="display-5 fw-bold mb-3" style="font-family: 'Segoe UI', sans-serif;">🌟 Welcome to Star Fruits</h2>
+    <p class="lead fs-4 mb-4">Your Trusted Suppliers of <span class="fw-bold">Fresh Fruits, Vegetables & Areca Nuts</span></p>
 
-      <div class="banner mt-4">
-        <div class="row justify-content-center">
-          <div class="col-auto">
-            <div class="btn-group">
-              <button class="btn btn-danger btn-lg px-5 py-3" onclick="callNow()">✆ CALL FOR BULK ORDERS</button>
-              <button class="btn btn-success btn-lg px-5 py-3" onclick="whatsapp()">💬 WHATSAPP</button>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-4">
+      <button class="btn btn-lg px-5 py-3" style="background-color: #d32f2f; color: white; border-radius: 12px;" onclick="callNow()">
+        ✆ CALL FOR BULK ORDERS
+      </button>
+      <button class="btn btn-lg px-5 py-3" style="background-color: #43a047; color: white; border-radius: 12px;" onclick="whatsapp()">
+        💬 WHATSAPP
+      </button>
     </div>
   </div>
-  <!-- Modern Contact Section -->
+</div>
+
 
   <section class="contact-section py-5">
     <div class="container">
@@ -401,6 +425,7 @@ if (isset($_POST['submit'])) {
             <li><i class="bi bi-check-circle-fill text-success"></i> <strong>Expert Assistance:</strong> Our team is here to help.</li>
           </ul>
         </div>
+
         <div class="col-lg-5">
           <div class="card shadow-lg border-0 rounded-4">
             <div class="card-body p-4">
@@ -445,7 +470,6 @@ if (isset($_POST['submit'])) {
   <?php
   include("partials/_footers.php");
   ?>
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 </body>
 

@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Form</title>
+  <meta name="description" content="Learn about Star Fruits, a leading wholesale supplier of fresh fruits, vegetables, and areca nuts in India. We serve exporters, supermarkets, food factories, and online grocery platforms with bulk orders and best prices." />
+  <title>contact Star Fruits | Wholesale Exporter of Fruits, Vegetables & Areca Nuts in India</title>
 </head>
 
 <body>
@@ -28,9 +29,6 @@
     if (!empty($name) && !empty($phone)  && !empty($message)) { // Ensure $email is not empty
       $exists = false;
 
-
-
-      //Load Composer's autoloader
       require 'PHPMailer/PHPMailer.php';
       require 'PHPMailer/SMTP.php';
       require 'PHPMailer/Exception.php';
@@ -72,7 +70,6 @@
 
   ?>
 
-
   <?php
   if ($showAlert) {
     echo ' <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -97,21 +94,15 @@
       <div class="col-lg-7 text-center text-lg-start">
         <h1 class="display-5 bold text-center  mb-3 mr-2">Contact Us</h1>
         <p class="col-lg-10 fs-3 text-left pl-5 mx-0">Welcome to 🌟Star Fruits, your go-to destination for the freshest and most delightful fruits sourced from all corners of India! Our passion is reflected in every bite, ensuring you experience the true essence of nature's goodness.
-
           <br>
           <br>At 🌟Star Fruits, quality and taste are our top priorities. Whether you're a fruit enthusiast or a buyer, our carefully curated selection promises a memorable experience. From the vibrant orchards of Delhi and Punjab to the lush groves of Kerala and the bustling markets of Mumbai and Hyderabad, we bring the best of India's harvest to your table.
-
           Got a question or craving some fresh fruits? <br>Look no further! Fill out our convenient form below, and our dedicated team will be in touch with you shortly. We believe in making your fruit shopping experience seamless and enjoyable.
           <br>
           <br><b>Premium Quality: We source only the finest fruits for your satisfaction.</b>
           <br><b>Fast and Reliable Service: We deliver promptly to your doorstep.</b>
           <br><b>Passionate Team: Our experts are here to answer queries and provide assistance.</b>
         </p>
-
-
-
       </div>
-
       <div class="col-md-10 mx-auto col-lg-5" id="down">
         <form class="p-5 p-md-5 border rounded-5 bg-light" action="/starfruits/home.php" method="post">
           <div class="form-group">
@@ -134,19 +125,8 @@
             <small id="emailHelp" class="form-text text-muted"></small>
           </div>
           <button type="submit" name="submit" class="btn btn-primary">SUBMIT</button>
-
-          <!-- <div class="checkbox mb-3">
-           <label>
-              <input type="checkbox" value="remember-me"> Remember me
-            </label> 
-          </div> -->
-
-          <!-- <button class="w-100 btn btn-lg btn-primary" type="submit" fdprocessedid="sajgfu">SUBMIT</button> -->
-          <!-- <hr class="my-4"> -->
-          <!-- <small class="text-muted">By clicking Submit, your details will be stored.</small> -->
         </form>
       </div>
-
     </div>
   </div>
 </body>

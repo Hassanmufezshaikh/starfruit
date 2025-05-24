@@ -5,10 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="Fruit Wholesalers in india. Find ✓Fruit Suppliers, ✓Fruit Distributor, ✓Fruit Vendors, ✓Fresh Fruits Wholesalers in Bangalore. Get Phone Numbers, Address, Reviews, Photos, Maps for top Fruit Wholesalers near me in Bangalore.">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-
-    <title>Fruits</title>
+    <title>Fresh Fruits Wholesale Supplier in India | Star Fruits Wholesalers</title>
     <style>
         body {
             background-color: #f8f9fa;
@@ -102,8 +100,8 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="photos/pin18.jpg" class="image_mobile img-fluid w-100  d-md-none d-lg-none" height="" alt="">
-                <img src="photos/pin18.jpg" class="image_desktop w-100 d-none d-sm-block  " alt="">
+                <img src="photos/fresh-fruits.jpg" class="image_mobile img-fluid w-100  d-md-none d-lg-none" height="" alt="">
+                <img src="photos/fresh-fruits.jpg" class="image_desktop w-100 d-none d-sm-block  " alt="">
             </div>
         </div>
     </div>
@@ -112,18 +110,19 @@
         <div class="row">
             <?php
             $products = [
-                ["name" => "Pineapple", "image" => "photos/4.jpg"],
-                ["name" => "Papaya", "image" => "photos/8.jpg"],
-                ["name" => "Tender Coconut", "image" => "photos/66.jpg"],
-                ["name" => "Watermelon", "image" => "photos/pin13.jpg"],
-                ["name" => "Grapes", "image" => "photos/pin11.jpg"],
-                ["name" => "Pomegranate", "image" => "photos/pin9.jpg"],
-                ["name" => "Muskmelon", "image" => "photos/pin14.jpg"],
-                ["name" => "Banana", "image" => "photos/10.jpg"],
-                ["name" => "Strawberry", "image" => "photos/11.jpg"],
-                ["name" => "Oranges", "image" => "photos/13.jpg"],
-                ["name" => "Apple", "image" => "photos/pin12.jpg"],
-                ["name" => "Mango", "image" => "photos/pin10.jpg"],
+                ["name" => "Pineapple", "image" => "photos/pineapple.jpg", "alt" => "Fresh Pineapple Wholesale Supplier India – Star Fruits"],
+                ["name" => "Papaya", "image" => "photos/papaya.jpg", "alt" => "Bulk Papaya Distributor – Farm Fresh Papaya for Sale"],
+                ["name" => "Tender Coconut", "image" => "photos/tendercocnut.jpg", "alt" => "Tender Coconut Wholesale Delivery – Star Fruits India"],
+                ["name" => "Watermelon", "image" => "photos/watermelon.jpg", "alt" => "Juicy Watermelon in Bulk – Wholesale Supplier India"],
+                ["name" => "Grapes", "image" => "photos/grapes.jpg", "alt" => "FresTop-Quality Pomegranates for Bulk Orders – India Distributor"],
+                ["name" => "Muskmelon", "image" => "photos/muskleon.jpg", "alt" => "Sweet Muskmelon Supplier in India – Bulk Fruit Exporter"],
+                ["name" => "Banana", "image" => "photos/banana.jpg", "alt" => "Fresh Bananas for Hotels and Traders – Star Fruits Supply"],
+                ["name" => "Strawberry", "image" => "photos/strawberry.jpg", "alt" => "Organic Strawberries in Bulk – Indian Fruit Wholesaler"],
+                ["name" => "Oranges", "image" => "photos/organes.jpg", "alt" => "Citrus Oranges Wholesale – Fresh Stock Supplier India"],
+                ["name" => "Apple", "image" => "photos/apple.jpg", "alt" => "Crisp Red Apples for Bulk Sale – Star Fruits India"],
+                ["name" => "Mango", "image" => "photos/mango.jpg", "alt" => "Export Quality Mangoes – Alphonso, Kesar in Bulk India"],
+                ["name" => "arec-nuts", "image" => "photos/areca-nuts.png", "alt" => "Export Quality Areca Nuts – Bulk Supplier India"],
+
             ];
             foreach ($products as $product) {
             ?>

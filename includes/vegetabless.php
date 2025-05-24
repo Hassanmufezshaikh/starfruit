@@ -135,14 +135,14 @@
         <div class="row">
             <?php
             $products = [
-                ["name" => "Onion", "image" => "photos/pin21.jpeg", "Onion" => "Fresh Wholesale Onion Supplier in India – Star Fruits"],
-                ["name" => "Tomato", "image" => "photos/pin22.jpg", "Tomato" => "Bulk Tomato Distributor – Farm Fresh Tomatoes for Trade"],
-                ["name" => "Carrot", "image" => "photos/pin23.jpeg", "Carrot" => "High Quality Carrots – Wholesale Vegetable Exporter"],
-                ["name" => "Red Chili", "image" => "photos/pin24.jpg", "Red Chili" => "Spicy Red Chili Wholesale Supplier – Indian Export Grade"],
-                ["name" => "Potato", "image" => "photos/pin25.jpeg", "Potato" => "Cleaned Bulk Potatoes for Food Businesses – India Seller"],
-                ["name" => "Ginger", "image" => "photos/pin26.png", "Ginger" => "Fresh Ginger Root – Bulk Supplier for Factories & Exporters"],
-                ["name" => "Garlic", "image" => "photos/28.jpg", "Garlic" => "Wholesale Garlic Bulbs – Star Fruits Vegetable Exporter"],
-                ["name" => "Lemon", "image" => "photos/pin30.jpeg", "Lemon" => "Juicy Lemons in Bulk – Trusted Indian Wholesale Distributor"],
+                ["name" => "Onion", "image" => "photos/onion.jpeg", "Onion" => "Fresh Wholesale Onion Supplier in India – Star Fruits"],
+                ["name" => "Tomato", "image" => "photos/tomato.jpg", "Tomato" => "Bulk Tomato Distributor – Farm Fresh Tomatoes for Trade"],
+                ["name" => "Carrot", "image" => "photos/carrot.jpeg", "Carrot" => "High Quality Carrots – Wholesale Vegetable Exporter"],
+                ["name" => "Red Chili", "image" => "photos/red-chilli.jpg", "Red Chili" => "Spicy Red Chili Wholesale Supplier – Indian Export Grade"],
+                ["name" => "Potato", "image" => "photos/potato.jpeg", "Potato" => "Cleaned Bulk Potatoes for Food Businesses – India Seller"],
+                ["name" => "Ginger", "image" => "photos/ginger.png", "Ginger" => "Fresh Ginger Root – Bulk Supplier for Factories & Exporters"],
+                ["name" => "Garlic", "image" => "photos/garlic.jpg", "Garlic" => "Wholesale Garlic Bulbs – Star Fruits Vegetable Exporter"],
+                ["name" => "Lemon", "image" => "photos/lemon.jpeg", "Lemon" => "Juicy Lemons in Bulk – Trusted Indian Wholesale Distributor"],
             ];
             foreach ($products as $product) {
             ?>

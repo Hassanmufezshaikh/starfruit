@@ -5,10 +5,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="Description" content="Find here details of companies selling Fresh Vegetables in Bengaluru, Karnataka. Get latest info on Fresh Vegetables, suppliers, wholesale suppliers, retailers traders with Fresh Vegetables prices for buying.">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 
-    <title>Starfruits</title>
+    <title>Buy Fresh Vegetables in Bulk | Wholesale Vegetable Supplier in India – Star Fruits</title>
     <style>
         body { background-color: #f8f9fa; font-family: Arial, sans-serif; }
         .product-card { transition: 0.3s; border-radius: 15px; overflow: hidden; background: white; }
@@ -37,8 +36,8 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="photos/pin19.jpeg" class="image_mobile img-fluid w-100  d-md-none d-lg-none" height="" alt="">
-                <img src="photos/pin19.jpeg" class="image_desktop w-100 d-none d-sm-block  " alt="">
+                <img src="photos/vegetables.jpeg" class="image_mobile img-fluid w-100  d-md-none d-lg-none" height="" alt="">
+                <img src="photos/vegetables.jpeg" class="image_desktop w-100 d-none d-sm-block  " alt="">
             </div>
         </div>
     </div>
@@ -47,14 +46,14 @@
         <div class="row">
             <?php 
             $products = [
-                ["name" => "Onion", "image" => "photos/pin21.jpeg"],
-                ["name" => "Tomato", "image" => "photos/pin22.jpg"],
-                ["name" => "Carrot", "image" => "photos/pin23.jpeg"],
-                ["name" => "Red Chili", "image" => "photos/pin24.jpg"],
-                ["name" => "Potato", "image" => "photos/pin25.jpeg"],
-                ["name" => "Ginger", "image" => "photos/pin26.png"],
-                ["name" => "Garlic", "image" => "photos/28.jpg"],
-                ["name" => "Lemon", "image" => "photos/pin30.jpeg"],
+                ["name" => "Onion", "image" => "photos/onion.jpeg", "Onion" => "Fresh Wholesale Onion Supplier in India – Star Fruits"],
+                ["name" => "Tomato", "image" => "photos/tomato.jpg", "Tomato" => "Bulk Tomato Distributor – Farm Fresh Tomatoes for Trade"],
+                ["name" => "Carrot", "image" => "photos/carrot.jpeg", "Carrot" => "High Quality Carrots – Wholesale Vegetable Exporter"],
+                ["name" => "Red Chili", "image" => "photos/red-chilli.jpg", "Red Chili" => "Spicy Red Chili Wholesale Supplier – Indian Export Grade"],
+                ["name" => "Potato", "image" => "photos/potato.jpeg", "Potato" => "Cleaned Bulk Potatoes for Food Businesses – India Seller"],
+                ["name" => "Ginger", "image" => "photos/ginger.png", "Ginger" => "Fresh Ginger Root – Bulk Supplier for Factories & Exporters"],
+                ["name" => "Garlic", "image" => "photos/garlic.jpg", "Garlic" => "Wholesale Garlic Bulbs – Star Fruits Vegetable Exporter"],
+                ["name" => "Lemon", "image" => "photos/lemon.jpeg", "Lemon" => "Juicy Lemons in Bulk – Trusted Indian Wholesale Distributor"],
             ];
             foreach ($products as $product) {
             ?>

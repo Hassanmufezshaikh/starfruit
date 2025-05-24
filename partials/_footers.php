@@ -119,14 +119,30 @@
             </div>
 
             <div class="sf-footer-bottom">
-                <small class="text-muted">Bulk Supplier | Exporter | B2B Distributor | India</small>
+                <small class="text-muted">Bulk Supplier | Wholesaler | B2B Distributor | India</small>
                 <p>&copy; <span id="sf-year"></span> 🌟 Star Fruits Company, Inc. | All Rights Reserved.</p>
             </div>
         </div>
-    </footer>
+        <div style="display: none;">
+            #agriculture #alaweerfruitandvegetablemarket #arecanuts #bulkorders #bulkproduce #cleaneating #dubaifood #dubailife #dxb
+            #exporterindia #farmfresh #farmtotable #foodie #freshfruits #freshproduce #freshveggies #fruitdeliverydubai #fruitmarket
+            #fruits #fruitsofig #fruitsupplier #goldencrowndepot #greenthumb #healthyliving #healthychoices #healthyfood
+            #localfarms #miami #mydubai #nutrition #organicvegetables #qualitygoods #redgoldgreen #seedstarting #seller
+            #supportlocal #vegan #veggies #vegetableexport #vegetabledelivery #vegetables #veggieofig #wholesale #wholesalefruits
+            #wholesaler #wholesalevegetable #wholesalevegetables #Arecbuts #Wholesalers #Exporters #FreshProduce #HealthyEating
+        </div>
+        <div style="display: none;">
+            #indiaexporter #freshfruitsindia #vegetablesindia #karnatakaexports #bangalorewholesale #indiatrade #southindiafarming
+            #bulkexportindia #fruitexportersindia #vegetableexportersindia #indianwholesaler #exportquality #globaltrade
+            #indianproduce #mumbaiexporters #uaeimports #qatarmarkets #omanbuyers #africanimports #malaysiafruitsupply
+            #singaporevegetables #indianfarmers #internationalbuyers #wholesaleprices #b2bsupplier #freshfruitsexport
+            #bulkvegetables #bulkfruitdeals #fruitmarketindia #agroexporter #exportingfromindia #discountedwholesale
+        </div>
 
+    </footer>
     <script>
         document.getElementById("sf-year").textContent = new Date().getFullYear();
     </script>
 </body>
+
 </html>
