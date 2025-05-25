@@ -111,7 +111,7 @@
                 <div class="icon-box"><i class="fas fa-seedling"></i> Eco-Friendly Practices</div>
             </div>
             <div class="col-md-5">
-                <img src="photos/pin15.jpeg" class="img-fluid" alt="Farm Fresh Quality Fruits – Organic and Export Ready from Star Fruits">
+                <img src="photos/star-fruits-logo.jpg" class="img-fluid" alt="Farm Fresh Quality Fruits – Organic and Export Ready from Star Fruits">
             </div>
         </div>
 

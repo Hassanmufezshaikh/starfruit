@@ -16,7 +16,9 @@ if (isset($_POST['submit'])) {
   $phone = $_POST['phone'];
   $email = $_POST['email'];
   $message = $_POST['message'];
-  $page = $_POST['page'];
+  $page = isset($_POST['page']) ? $_POST['page'] : '';
+
+ 
 
   if (!empty($name) && !empty($phone)  && !empty($message)) { // Ensure $email is not empty
     $exists = false;
@@ -74,29 +76,24 @@ if (isset($_POST['submit'])) {
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="Welcome to iCoder. A blog for coding enthusiasts" />
+  <meta name="description" content="Buy fresh areca nuts, fruits, and vegetables from trusted wholesalers. Great prices and fast delivery. Contact us today to order your stock." />
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-
   <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-  <script src="js/script.js"></script>
-
-
   <link rel="stylesheet" href="styles.css">
+  <script src="js/script.js"></script>
   <title>Starfruits</title>
 
   <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Star Fruits",
-      "url": "https://www.yourdomain.com",
-      "logo": "https://www.yourdomain.com/logo.png",
+      "url": "",
+      "logo": "photos/star-fruits-logo.png",
       "description": "Wholesale supplier of fresh fruits, vegetables and areca nuts in India.",
       "address": {
-        "streetAddress": "No. 123, Fruit Market Road",
         "addressLocality": "Bengaluru",
         "addressRegion": "Karnataka",
         "postalCode": "560001",
@@ -313,45 +310,45 @@ if (isset($_POST['submit'])) {
     .goog-logo-link {
       display: none !important;
     }
+
     .btn:hover {
-    transform: translateY(-2px);
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-  }
+      transform: translateY(-2px);
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
 
     .lang-btn {
-    padding: 12px 28px;
-    font-size: 1.1rem;
-    border: none;
-    border-radius: 12px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.25s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
+      padding: 12px 28px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
 
-  .btn-en {
-    background: linear-gradient(to right, #007bff, #3399ff);
-    color: white;
-  }
+    .btn-en {
+      background: linear-gradient(to right, #007bff, #3399ff);
+      color: white;
+    }
 
-  .btn-hi {
-    background: linear-gradient(to right, #ffc107, #ff9800);
-    color: #212529;
-  }
+    .btn-hi {
+      background: linear-gradient(to right, #ffc107, #ff9800);
+      color: #212529;
+    }
 
-  .lang-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  }
+    .lang-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
 
-  #google_translate_element select {
-    padding: 8px;
-    font-size: 1rem;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-  }
-  
+    #google_translate_element select {
+      padding: 8px;
+      font-size: 1rem;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
   </style>
   <!-- Carousel -->
   <!-- Hero Carousel Section -->
@@ -370,44 +367,44 @@ if (isset($_POST['submit'])) {
   </div>
 
 
-<!-- 🌐 Language Switcher Container -->
-<div class="container text-center my-4">
-  <div class="bg-white shadow rounded-4 p-4 mx-auto" style="max-width: 500px;">
-    <h5 class="mb-3 fw-semibold text-secondary">🌍 Choose Your Language</h5>
+  <!-- 🌐 Language Switcher Container -->
+  <div class="container text-center my-4">
+    <div class="bg-white shadow rounded-4 p-4 mx-auto" style="max-width: 500px;">
+      <h5 class="mb-3 fw-semibold text-secondary">🌍 Choose Your Language</h5>
 
-    <!-- Language Buttons -->
-    <div class="d-flex justify-content-center gap-3 flex-wrap">
-      <button class="lang-btn btn-en" onclick="changeLanguage('en')">
-        🇺🇸 English
-      </button>
-      <button class="lang-btn btn-hi" onclick="changeLanguage('hi')">
-        🇮🇳 हिन्दी
-      </button>
+      <!-- Language Buttons -->
+      <div class="d-flex justify-content-center gap-3 flex-wrap">
+        <button class="lang-btn btn-en" onclick="changeLanguage('en')">
+          🇺🇸 English
+        </button>
+        <button class="lang-btn btn-hi" onclick="changeLanguage('hi')">
+          🇮🇳 हिन्दी
+        </button>
+      </div>
+
+      <!-- Google Translate Dropdown (Hidden by default, styled cleanly) -->
+      <div id="google_translate_element" class="mt-3" style="font-size: 0;"></div>
     </div>
-
-    <!-- Google Translate Dropdown (Hidden by default, styled cleanly) -->
-    <div id="google_translate_element" class="mt-3" style="font-size: 0;"></div>
   </div>
-</div>
 
 
   <div class="text-center pb-3" id="google_translate_element"></div>
 
-<div class="content-overlay text-center text-white" style="background: linear-gradient(135deg, #ff5722, #ff7043); padding: 60px 20px; border-radius: 0 0 40px 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
-  <div class="container py-4">
-    <h2 class="display-5 fw-bold mb-3" style="font-family: 'Segoe UI', sans-serif;">🌟 Welcome to Star Fruits</h2>
-    <p class="lead fs-4 mb-4">Your Trusted Suppliers of <span class="fw-bold">Fresh Fruits, Vegetables & Areca Nuts</span></p>
+  <div class="content-overlay text-center text-white" style="background: linear-gradient(135deg, #ff5722, #ff7043); padding: 60px 20px; border-radius: 0 0 40px 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
+    <div class="container py-4">
+      <h2 class="display-5 fw-bold mb-3" style="font-family: 'Segoe UI', sans-serif;">🌟 Welcome to Star Fruits</h2>
+      <p class="lead fs-4 mb-4">Your Trusted Suppliers of <span class="fw-bold">Fresh Fruits, Vegetables & Areca Nuts</span></p>
 
-    <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-4">
-      <button class="btn btn-lg px-5 py-3" style="background-color: #d32f2f; color: white; border-radius: 12px;" onclick="callNow()">
-        ✆ CALL FOR BULK ORDERS
-      </button>
-      <button class="btn btn-lg px-5 py-3" style="background-color: #43a047; color: white; border-radius: 12px;" onclick="whatsapp()">
-        💬 WHATSAPP
-      </button>
+      <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-4">
+        <button class="btn btn-lg px-5 py-3" style="background-color: #d32f2f; color: white; border-radius: 12px;" onclick="callNow()">
+          ✆ CALL FOR BULK ORDERS
+        </button>
+        <button class="btn btn-lg px-5 py-3" style="background-color: #43a047; color: white; border-radius: 12px;" onclick="whatsapp()">
+          💬 WHATSAPP
+        </button>
+      </div>
     </div>
   </div>
-</div>
 
 
   <section class="contact-section py-5">
@@ -416,13 +413,16 @@ if (isset($_POST['submit'])) {
         <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
           <h1 class="display-4 fw-bold" style="color: #ff5722;">Contact Us</h1>
           <p class="fs-5 text-muted">
-            Welcome to <span class="fw-bold text-dark">🌟 Star Fruits</span>, We sell fresh fruits, vegetables, and Arecanut in large quantities to shops, traders, hotels, supermarkets, and exporters.<br>
-            If you are looking for bulk supply at the best rates, we are here to help.
+            Welcome to <span class="fw-bold text-dark">🌟 Star Fruits</span>, We sell fresh fruits, vegetables, and Arecanut in large quantities to Wholesale Mandi, Traders, Hotels, Supermarkets and Exporters.<br>
+            Need fresh fruits, or vegetables areca nuts? We’ve got the best selection at great prices. Contact us now and order fresh produce today!
           </p>
           <ul class="list-unstyled text-muted fs-6">
             <li><i class="bi bi-check-circle-fill text-success"></i> <strong>Premium Quality:</strong> Finest handpicked fruits.</li>
             <li><i class="bi bi-check-circle-fill text-success"></i> <strong>Fast Delivery:</strong> Prompt doorstep service.</li>
             <li><i class="bi bi-check-circle-fill text-success"></i> <strong>Expert Assistance:</strong> Our team is here to help.</li>
+            <li><i class="bi bi-check-circle-fill text-success"></i> <strong>Wide Selection:</strong> Fresh areca nuts, fruits, and many vegetables.</li>
+            <li><i class="bi bi-check-circle-fill text-success"></i> <strong>Competitive Pricing:</strong> Best rates direct from farmers.</li>
+            <li><i class="bi bi-check-circle-fill text-success"></i> <strong>Reliable Delivery:</strong> On-time and safe shipping every time.</li>
           </ul>
         </div>
 
@@ -447,7 +447,8 @@ if (isset($_POST['submit'])) {
                   <label for="message" class="form-label">What do you want to buy?</label>
                   <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
                 </div>
-                <button type="submit" class="btn w-100 py-2" style="background-color: #ff5722; border: none; color: white;">Submit</button>
+                <input type="hidden" name="page" id="page" value="home">
+                <button type="submit"  name="submit" class="btn w-100 py-2" style="background-color: #ff5722; border: none; color: white;">Submit</button>
               </form>
             </div>
           </div>

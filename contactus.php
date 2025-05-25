@@ -40,6 +40,11 @@ if (isset($_GET['showAlert'])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/script.js"></script>
     <title>Contact Us</title>
 </head>
 
@@ -95,8 +100,20 @@ if (isset($_GET['showAlert'])) {
             </div>
         </div>
     </div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <?php include("partials/_footers.php"); ?>
-</body>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+        <script>
+            $(document).ready(function() {
+                // Initialize Bootstrap tooltips
+               $('.close').on('click', function(e) {
+                    $('.alert').hide();
+                    location.reload();
+                // alert("Alert closed");
+                });
+
+            });
+        </script>
+    </body>
 
 </html>
