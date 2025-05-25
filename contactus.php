@@ -77,7 +77,7 @@ if (isset($_GET['showAlert'])) {
                 </p>
 
 
-                <form action="/starfruits/home.php" method="post" class="p-4 border rounded bg-light">
+                <form action="/starfruits/index.php" method="post" class="p-4 border rounded bg-light">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" class="form-control" id="name" name="name" required>
